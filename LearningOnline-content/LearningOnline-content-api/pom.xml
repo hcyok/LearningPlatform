@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>LearningOnline-content-api</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>LearningOnline-content-api</name>
+    <description>LearningOnline-content-api</description>
+  <parent>
+      <groupId>com.LearningOnline</groupId>
+      <artifactId>LearningOnline-content</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+  </parent>
+<dependencies>
+    <dependency>
+        <groupId>com.LearningOnline</groupId>
+        <artifactId>LearningOnline-content-service</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+</dependencies>
+</project>
