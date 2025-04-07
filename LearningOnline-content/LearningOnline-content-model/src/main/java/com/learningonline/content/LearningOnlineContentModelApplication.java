@@ -1,4 +1,4 @@
-package com.learningonline.contentmodel;
+package com.learningonline.content;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
