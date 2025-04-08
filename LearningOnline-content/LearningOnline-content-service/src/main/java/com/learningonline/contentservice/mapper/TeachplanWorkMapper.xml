@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learningonline.generator.dao.TeachplanWorkMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.learningonline.generator.pojo.TeachplanWork">
+        <id column="id" property="id" />
+        <result column="work_id" property="workId" />
+        <result column="work_title" property="workTitle" />
+        <result column="teachplan_id" property="teachplanId" />
+        <result column="course_id" property="courseId" />
+        <result column="create_date" property="createDate" />
+        <result column="course_pub_id" property="coursePubId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, work_id, work_title, teachplan_id, course_id, create_date, course_pub_id
+    </sql>
+
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learningonline.generator.dao.CourseAuditMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.learningonline.generator.pojo.CourseAudit">
+        <id column="id" property="id" />
+        <result column="course_id" property="courseId" />
+        <result column="audit_mind" property="auditMind" />
+        <result column="audit_status" property="auditStatus" />
+        <result column="audit_people" property="auditPeople" />
+        <result column="audit_date" property="auditDate" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, course_id, audit_mind, audit_status, audit_people, audit_date
+    </sql>
+
+</mapper>
