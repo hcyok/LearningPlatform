@@ -1,4 +1,4 @@
-package com.learningonline.content.model;
+package com.learningonline.content.model.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  * <p>
- * 课程-教师关系表
+ * 
  * </p>
  *
  * @author yhc
@@ -18,45 +18,37 @@ import java.util.Date;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class CourseTeacher implements Serializable {
+public class CourseAudit implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    /**
-     * 主键
-     */
     @TableId(value = "id", type = IdType.AUTO)
     private Long id;
 
     /**
-     * 课程标识
+     * 课程id
      */
     private Long courseId;
 
     /**
-     * 教师标识
+     * 审核意见
      */
-    private String teacherName;
+    private String auditMind;
 
     /**
-     * 教师职位
+     * 审核状态
      */
-    private String position;
+    private String auditStatus;
 
     /**
-     * 教师简介
+     * 审核人
      */
-    private String introduction;
+    private String auditPeople;
 
     /**
-     * 照片
+     * 审核时间
      */
-    private String photograph;
-
-    /**
-     * 创建时间
-     */
-    private Date createDate;
+    private Date auditDate;
 
 
 }

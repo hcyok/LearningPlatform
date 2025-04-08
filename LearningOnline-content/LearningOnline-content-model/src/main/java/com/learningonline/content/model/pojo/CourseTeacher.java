@@ -1,4 +1,4 @@
-package com.learningonline.content.model;
+package com.learningonline.content.model.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -6,10 +6,11 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
- * 课程分类
+ * 课程-教师关系表
  * </p>
  *
  * @author yhc
@@ -17,7 +18,7 @@ import java.io.Serializable;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class CourseCategory implements Serializable {
+public class CourseTeacher implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -25,37 +26,37 @@ public class CourseCategory implements Serializable {
      * 主键
      */
     @TableId(value = "id", type = IdType.AUTO)
-    private String id;
+    private Long id;
 
     /**
-     * 分类名称
+     * 课程标识
      */
-    private String name;
+    private Long courseId;
 
     /**
-     * 分类标签默认和名称一样
+     * 教师标识
      */
-    private String label;
+    private String teacherName;
 
     /**
-     * 父结点id（第一级的父节点是0，自关联字段id）
+     * 教师职位
      */
-    private String parentid;
+    private String position;
 
     /**
-     * 是否显示
+     * 教师简介
      */
-    private Integer isShow;
+    private String introduction;
 
     /**
-     * 排序字段
+     * 照片
      */
-    private Integer orderby;
+    private String photograph;
 
     /**
-     * 是否叶子
+     * 创建时间
      */
-    private Integer isLeaf;
+    private Date createDate;
 
 
 }
