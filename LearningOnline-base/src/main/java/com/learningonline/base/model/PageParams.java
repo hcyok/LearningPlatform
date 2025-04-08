@@ -13,12 +13,12 @@ import lombok.ToString;
 @ToString
 public class PageParams {
     //当前页码
-    private long pageNumber=1L;
+    private long pageNo=1L;
     //每页默认值
     private long pageSize=10L;
     public PageParams() {}
     public PageParams(long pageNumber, long pageSize) {
-        this.pageNumber = pageNumber;
+        this.pageNo = pageNumber;
         this.pageSize = pageSize;
     }
 }
