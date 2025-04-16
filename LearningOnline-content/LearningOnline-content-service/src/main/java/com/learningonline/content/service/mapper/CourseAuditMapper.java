@@ -1,4 +1,4 @@
-package com.learningonline.contentservice.mapper;
+package com.learningonline.content.service.mapper;
 
 import com.learningonline.content.model.pojo.CourseAudit;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;

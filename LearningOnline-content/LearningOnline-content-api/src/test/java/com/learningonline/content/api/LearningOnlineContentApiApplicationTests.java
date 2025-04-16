@@ -1,4 +1,4 @@
-package com.learningonline.contentapi;
+package com.learningonline.content.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
