@@ -1,4 +1,4 @@
-package com.learningonline.content.service.mapper;
+package com.learningonline.content.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
