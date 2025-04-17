@@ -7,7 +7,7 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
 
 
 @EnableOpenApi
-@SpringBootApplication(scanBasePackages = "com.learningonline.content")
+@SpringBootApplication(scanBasePackages = "com.learningonline")
 public class LearningOnlineContentApiApplication {
 
     public static void main(String[] args) {
