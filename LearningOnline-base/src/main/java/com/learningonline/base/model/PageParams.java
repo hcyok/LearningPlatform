@@ -1,5 +1,6 @@
 package com.learningonline.base.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.ToString;
 
@@ -13,6 +14,7 @@ import lombok.ToString;
 @ToString
 public class PageParams {
     //当前页码
+    @ApiModelProperty("当前页码")
     private long pageNo=1L;
     //每页默认值
     private long pageSize=10L;
