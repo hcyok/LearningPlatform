@@ -1,0 +1,138 @@
+2025-04-17 10:59:09,642 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-04-17 10:59:09,642 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-04-17 10:59:09,659 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-17 10:59:09,659 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-04-17 10:59:09,668 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-04-17 10:59:09,668 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-04-17 10:59:09,670 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-04-17 10:59:09,670 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-04-17 10:59:09,670 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-04-17 10:59:09,670 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-04-17 10:59:09,672 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-04-17 10:59:09,672 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-04-17 10:59:09,676 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-04-17 10:59:09,676 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-04-17 10:59:09,691 INFO [main][StartupInfoLogger.java:55] - Starting LearningOnlineContentApiApplication using Java 17.0.8 on yhc with PID 7300 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-content\LearningOnline-content-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-04-17 10:59:09,691 INFO [main][StartupInfoLogger.java:55] - Starting LearningOnlineContentApiApplication using Java 17.0.8 on yhc with PID 7300 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-content\LearningOnline-content-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-04-17 10:59:09,694 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-04-17 10:59:09,694 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-04-17 10:59:09,694 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-04-17 10:59:09,694 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-04-17 10:59:09,713 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-04-17 10:59:09,713 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-04-17 10:59:09,857 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-04-17 10:59:09,857 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-04-17 10:59:09,867 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-04-17 10:59:09,867 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-04-17 10:59:09,868 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-04-17 10:59:10,887 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-04-17 10:59:10,887 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-04-17 10:59:10,987 INFO [main][GenericScope.java:283] - BeanFactory id=439f18e0-8332-3e8b-9856-3147465695cd
+2025-04-17 10:59:10,987 INFO [main][GenericScope.java:283] - BeanFactory id=439f18e0-8332-3e8b-9856-3147465695cd
+2025-04-17 10:59:11,364 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9090 (http)
+2025-04-17 10:59:11,364 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9090 (http)
+2025-04-17 10:59:11,382 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9090"]
+2025-04-17 10:59:11,382 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9090"]
+2025-04-17 10:59:11,382 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-04-17 10:59:11,382 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-04-17 10:59:11,383 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-04-17 10:59:11,383 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-04-17 10:59:11,523 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-04-17 10:59:11,523 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-04-17 10:59:11,524 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1784 ms
+2025-04-17 10:59:11,524 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1784 ms
+2025-04-17 10:59:11,659 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b
+2025-04-17 10:59:11,659 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@63947c6b
+2025-04-17 10:59:11,739 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@2becfd4c'
+2025-04-17 10:59:11,739 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@2becfd4c'
+2025-04-17 10:59:11,740 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-04-17 10:59:11,740 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-04-17 10:59:12,190 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseBaseInfoController:
+	{POST [/course/list]}: queryCourseList(PageParams,QueryCourseParamsDto)
+2025-04-17 10:59:12,190 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseBaseInfoController:
+	{POST [/course/list]}: queryCourseList(PageParams,QueryCourseParamsDto)
+2025-04-17 10:59:12,191 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-04-17 10:59:12,191 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-04-17 10:59:12,193 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-04-17 10:59:12,193 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-04-17 10:59:12,193 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-04-17 10:59:12,193 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-04-17 10:59:12,196 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-04-17 10:59:12,196 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-04-17 10:59:12,265 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-04-17 10:59:12,265 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-04-17 10:59:12,267 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-04-17 10:59:12,267 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-04-17 10:59:12,267 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-04-17 10:59:12,267 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-04-17 10:59:12,268 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-04-17 10:59:12,268 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-04-17 10:59:12,268 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-04-17 10:59:12,268 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-04-17 10:59:12,268 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-04-17 10:59:12,268 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-04-17 10:59:12,270 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-04-17 10:59:12,270 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-04-17 10:59:12,270 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-04-17 10:59:12,270 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-04-17 10:59:12,270 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-04-17 10:59:12,270 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-04-17 10:59:12,271 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-04-17 10:59:12,271 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-04-17 10:59:12,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-04-17 10:59:12,433 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-04-17 10:59:12,433 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-04-17 10:59:12,436 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-04-17 10:59:12,436 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-04-17 10:59:12,451 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-04-17 10:59:12,451 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-04-17 10:59:12,901 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9090"]
+2025-04-17 10:59:12,901 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9090"]
+2025-04-17 10:59:12,925 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9090 (http) with context path ''
+2025-04-17 10:59:12,925 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9090 (http) with context path ''
+2025-04-17 10:59:13,127 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-04-17 10:59:13,127 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-04-17 10:59:13,151 INFO [main][StartupInfoLogger.java:61] - Started LearningOnlineContentApiApplication in 3.939 seconds (JVM running for 5.082)
+2025-04-17 10:59:13,151 INFO [main][StartupInfoLogger.java:61] - Started LearningOnlineContentApiApplication in 3.939 seconds (JVM running for 5.082)
