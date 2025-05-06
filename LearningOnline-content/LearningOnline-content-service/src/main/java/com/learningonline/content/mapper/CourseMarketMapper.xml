@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.learningonline.generator.dao.CourseMarketMapper">
+<mapper namespace="com.learningonline.content.mapper.CourseMarketMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.learningonline.generator.pojo.CourseMarket">
+    <resultMap id="BaseResultMap" type="com.learningonline.content.model.pojo.CourseMarket">
         <id column="id" property="id" />
         <result column="charge" property="charge" />
         <result column="price" property="price" />
