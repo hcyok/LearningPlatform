@@ -28,7 +28,7 @@ public interface CourseBaseInfoService {
      * @param addCourseDto  课程基本信息
      * @return com.learningonline.content.model.dto.CourseBaseInfoDto
      * @author yhc
-     * @since  2022/9/7 17:51
+     *
      */
     CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
 

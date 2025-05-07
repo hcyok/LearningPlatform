@@ -1,0 +1,1238 @@
+2025-05-07 17:05:45,562 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-05-07 17:05:45,562 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-05-07 17:05:45,602 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-05-07 17:05:45,602 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-05-07 17:05:45,612 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:05:45,612 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:05:45,614 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:05:45,614 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:05:45,615 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:05:45,615 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:05:45,616 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:05:45,616 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:05:45,621 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:05:45,621 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:05:45,628 INFO [main][StartupInfoLogger.java:55] - Starting LearningOnlineContentApiApplication using Java 1.8.0_432 on yhc with PID 44436 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-content\LearningOnline-content-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-05-07 17:05:45,628 INFO [main][StartupInfoLogger.java:55] - Starting LearningOnlineContentApiApplication using Java 1.8.0_432 on yhc with PID 44436 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-content\LearningOnline-content-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-05-07 17:05:45,632 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-05-07 17:05:45,632 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-05-07 17:05:45,632 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-05-07 17:05:45,632 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-05-07 17:05:45,650 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:05:45,650 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:05:45,815 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:05:45,815 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:05:45,823 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:05:45,824 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:05:45,824 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:05:46,766 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-05-07 17:05:46,766 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-05-07 17:05:46,861 INFO [main][GenericScope.java:283] - BeanFactory id=620df36f-84bf-3825-a9f1-e790b687fafc
+2025-05-07 17:05:46,861 INFO [main][GenericScope.java:283] - BeanFactory id=620df36f-84bf-3825-a9f1-e790b687fafc
+2025-05-07 17:05:47,251 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-05-07 17:05:47,251 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-05-07 17:05:47,262 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:05:47,262 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:05:47,262 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-05-07 17:05:47,262 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-05-07 17:05:47,262 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-07 17:05:47,262 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-07 17:05:47,408 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-05-07 17:05:47,408 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-05-07 17:05:47,409 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1733 ms
+2025-05-07 17:05:47,409 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1733 ms
+2025-05-07 17:05:47,515 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-05-07 17:05:47,515 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-05-07 17:05:47,584 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@35a60674'
+2025-05-07 17:05:47,584 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@35a60674'
+2025-05-07 17:05:47,585 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-05-07 17:05:47,585 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-05-07 17:05:48,692 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseBaseInfoController:
+	{POST [/course/list]}: queryCourseList(PageParams,QueryCourseParamsDto)
+2025-05-07 17:05:48,692 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseBaseInfoController:
+	{POST [/course/list]}: queryCourseList(PageParams,QueryCourseParamsDto)
+2025-05-07 17:05:48,695 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseCategoryController:
+	{GET [/course-category/tree-nodes]}: queryTreeNodes()
+2025-05-07 17:05:48,695 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseCategoryController:
+	{GET [/course-category/tree-nodes]}: queryTreeNodes()
+2025-05-07 17:05:48,696 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:05:48,696 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:05:48,697 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-05-07 17:05:48,697 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-05-07 17:05:48,698 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:05:48,698 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:05:48,701 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-05-07 17:05:48,701 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-05-07 17:05:48,778 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:05:48,778 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:05:48,780 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-05-07 17:05:48,780 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-05-07 17:05:48,781 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-05-07 17:05:48,781 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-05-07 17:05:48,782 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-05-07 17:05:48,782 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-05-07 17:05:48,783 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:05:48,783 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:05:48,783 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-05-07 17:05:48,783 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-05-07 17:05:48,783 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:05:48,783 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:05:48,784 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:05:48,784 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:05:48,784 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:05:48,784 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:05:48,785 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:05:48,785 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:05:48,787 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:05:48,788 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:05:48,788 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:05:48,939 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-05-07 17:05:48,939 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-05-07 17:05:48,942 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-05-07 17:05:48,942 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-05-07 17:05:48,955 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-05-07 17:05:48,955 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-05-07 17:05:49,252 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:05:49,252 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:05:49,276 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-05-07 17:05:49,276 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-05-07 17:05:49,462 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-05-07 17:05:49,462 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-05-07 17:05:49,493 INFO [main][StartupInfoLogger.java:61] - Started LearningOnlineContentApiApplication in 4.348 seconds (JVM running for 5.968)
+2025-05-07 17:05:49,493 INFO [main][StartupInfoLogger.java:61] - Started LearningOnlineContentApiApplication in 4.348 seconds (JVM running for 5.968)
+2025-05-07 17:06:00,389 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 17:06:00,389 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 17:06:00,390 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-05-07 17:06:00,390 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-05-07 17:06:00,391 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2025-05-07 17:06:00,391 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2025-05-07 17:06:00,594 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2025-05-07 17:06:00,594 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2025-05-07 17:06:00,596 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - allowPoolSuspension................................false
+2025-05-07 17:06:00,596 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - allowPoolSuspension................................false
+2025-05-07 17:06:00,596 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - autoCommit................................true
+2025-05-07 17:06:00,596 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - autoCommit................................true
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - catalog................................none
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - catalog................................none
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionInitSql................................none
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionInitSql................................none
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTestQuery................................none
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTestQuery................................none
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTimeout................................30000
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTimeout................................30000
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSource................................none
+2025-05-07 17:06:00,597 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSource................................none
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceClassName................................none
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceClassName................................none
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceJNDI................................none
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceJNDI................................none
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2025-05-07 17:06:00,598 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckProperties................................{}
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckProperties................................{}
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckRegistry................................none
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckRegistry................................none
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - idleTimeout................................600000
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - idleTimeout................................600000
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - initializationFailTimeout................................1
+2025-05-07 17:06:00,599 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - initializationFailTimeout................................1
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - isolateInternalQueries................................false
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - isolateInternalQueries................................false
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.130.1:3306/lo_content_db?serverTimezone=UTC&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.130.1:3306/lo_content_db?serverTimezone=UTC&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - keepaliveTime................................0
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - keepaliveTime................................0
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maxLifetime................................1800000
+2025-05-07 17:06:00,600 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maxLifetime................................1800000
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maximumPoolSize................................10
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maximumPoolSize................................10
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricRegistry................................none
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricRegistry................................none
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - minimumIdle................................10
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - minimumIdle................................10
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - password................................<masked>
+2025-05-07 17:06:00,601 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - password................................<masked>
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - readOnly................................false
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - readOnly................................false
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - registerMbeans................................false
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - registerMbeans................................false
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - scheduledExecutor................................none
+2025-05-07 17:06:00,602 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - scheduledExecutor................................none
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - schema................................none
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - schema................................none
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - threadFactory................................internal
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - threadFactory................................internal
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - transactionIsolation................................default
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - transactionIsolation................................default
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - username................................"root"
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - username................................"root"
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - validationTimeout................................5000
+2025-05-07 17:06:00,603 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - validationTimeout................................5000
+2025-05-07 17:06:00,604 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-05-07 17:06:00,604 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-05-07 17:06:00,864 DEBUG [http-nio-63040-exec-1][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@693439af
+2025-05-07 17:06:00,864 DEBUG [http-nio-63040-exec-1][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@693439af
+2025-05-07 17:06:00,867 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-05-07 17:06:00,867 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-05-07 17:06:00,878 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ? AND audit_status = ? AND status = ?)
+2025-05-07 17:06:00,878 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ? AND audit_status = ? AND status = ?)
+2025-05-07 17:06:00,906 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %1%(String), 202004(String), 203001(String)
+2025-05-07 17:06:00,906 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %1%(String), 202004(String), 203001(String)
+2025-05-07 17:06:00,940 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:06:00,940 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:06:00,948 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ? AND status = ?) LIMIT ?
+2025-05-07 17:06:00,948 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ? AND audit_status = ? AND status = ?) LIMIT ?
+2025-05-07 17:06:00,948 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %1%(String), 202004(String), 203001(String), 10(Long)
+2025-05-07 17:06:00,948 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %1%(String), 202004(String), 203001(String), 10(Long)
+2025-05-07 17:06:00,958 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 2
+2025-05-07 17:06:00,958 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 2
+2025-05-07 17:06:00,975 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-05-07 17:06:00,975 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-05-07 17:06:00,989 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2776dd75
+2025-05-07 17:06:00,989 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2776dd75
+2025-05-07 17:06:00,995 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664bd74e
+2025-05-07 17:06:00,995 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664bd74e
+2025-05-07 17:06:01,003 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@576795d7
+2025-05-07 17:06:01,003 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@576795d7
+2025-05-07 17:06:01,009 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6642801
+2025-05-07 17:06:01,009 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6642801
+2025-05-07 17:06:01,014 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7098a9ff
+2025-05-07 17:06:01,014 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7098a9ff
+2025-05-07 17:06:01,020 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22ad2c4
+2025-05-07 17:06:01,020 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22ad2c4
+2025-05-07 17:06:01,026 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15183c2d
+2025-05-07 17:06:01,026 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15183c2d
+2025-05-07 17:06:01,031 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@586a4606
+2025-05-07 17:06:01,031 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@586a4606
+2025-05-07 17:06:01,036 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346009e7
+2025-05-07 17:06:01,036 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@346009e7
+2025-05-07 17:06:01,036 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:06:01,036 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:06:22,622 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-05-07 17:06:22,622 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-05-07 17:06:22,622 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:06:22,622 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:06:22,623 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@693439af: (connection evicted)
+2025-05-07 17:06:22,623 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@693439af: (connection evicted)
+2025-05-07 17:06:22,623 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2776dd75: (connection evicted)
+2025-05-07 17:06:22,623 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2776dd75: (connection evicted)
+2025-05-07 17:06:22,624 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@664bd74e: (connection evicted)
+2025-05-07 17:06:22,624 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@664bd74e: (connection evicted)
+2025-05-07 17:06:22,624 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@576795d7: (connection evicted)
+2025-05-07 17:06:22,624 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@576795d7: (connection evicted)
+2025-05-07 17:06:22,624 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6642801: (connection evicted)
+2025-05-07 17:06:22,624 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6642801: (connection evicted)
+2025-05-07 17:06:22,625 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7098a9ff: (connection evicted)
+2025-05-07 17:06:22,625 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7098a9ff: (connection evicted)
+2025-05-07 17:06:22,625 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22ad2c4: (connection evicted)
+2025-05-07 17:06:22,625 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22ad2c4: (connection evicted)
+2025-05-07 17:06:22,626 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15183c2d: (connection evicted)
+2025-05-07 17:06:22,626 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15183c2d: (connection evicted)
+2025-05-07 17:06:22,626 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@586a4606: (connection evicted)
+2025-05-07 17:06:22,626 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@586a4606: (connection evicted)
+2025-05-07 17:06:22,627 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@346009e7: (connection evicted)
+2025-05-07 17:06:22,627 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@346009e7: (connection evicted)
+2025-05-07 17:06:22,628 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-05-07 17:06:22,628 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-05-07 17:06:22,628 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-05-07 17:06:22,628 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-05-07 17:21:16,780 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-05-07 17:21:16,780 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-05-07 17:21:16,786 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-05-07 17:21:16,786 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-05-07 17:21:16,795 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:21:16,795 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:21:16,797 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:21:16,797 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:21:16,797 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:21:16,797 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:21:16,816 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:21:16,816 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:21:16,821 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:21:16,821 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:21:16,838 INFO [main][StartupInfoLogger.java:55] - Starting LearningOnlineContentApiApplication using Java 1.8.0_432 on yhc with PID 42800 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-content\LearningOnline-content-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-05-07 17:21:16,838 INFO [main][StartupInfoLogger.java:55] - Starting LearningOnlineContentApiApplication using Java 1.8.0_432 on yhc with PID 42800 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-content\LearningOnline-content-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-05-07 17:21:16,842 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-05-07 17:21:16,842 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-05-07 17:21:16,842 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-05-07 17:21:16,842 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-05-07 17:21:16,843 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:21:16,843 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:21:16,985 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:21:16,985 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:21:16,993 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:21:16,993 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:21:16,994 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:21:17,846 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-05-07 17:21:17,846 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-05-07 17:21:17,941 INFO [main][GenericScope.java:283] - BeanFactory id=620df36f-84bf-3825-a9f1-e790b687fafc
+2025-05-07 17:21:17,941 INFO [main][GenericScope.java:283] - BeanFactory id=620df36f-84bf-3825-a9f1-e790b687fafc
+2025-05-07 17:21:18,280 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-05-07 17:21:18,280 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2025-05-07 17:21:18,290 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:21:18,290 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:21:18,290 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-05-07 17:21:18,290 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-05-07 17:21:18,290 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-07 17:21:18,290 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-07 17:21:18,403 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-05-07 17:21:18,403 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1523 ms
+2025-05-07 17:21:18,403 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-05-07 17:21:18,403 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1523 ms
+2025-05-07 17:21:18,495 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-05-07 17:21:18,495 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-05-07 17:21:18,555 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7d78f3d5'
+2025-05-07 17:21:18,555 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@7d78f3d5'
+2025-05-07 17:21:18,556 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-05-07 17:21:18,556 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-05-07 17:21:19,587 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseBaseInfoController:
+	{POST [/course/list]}: queryCourseList(PageParams,QueryCourseParamsDto)
+	{POST [/course]}: addCourse(AddCourseDto)
+2025-05-07 17:21:19,587 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseBaseInfoController:
+	{POST [/course/list]}: queryCourseList(PageParams,QueryCourseParamsDto)
+	{POST [/course]}: addCourse(AddCourseDto)
+2025-05-07 17:21:19,590 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseCategoryController:
+	{GET [/course-category/tree-nodes]}: queryTreeNodes()
+2025-05-07 17:21:19,590 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.c.a.c.CourseCategoryController:
+	{GET [/course-category/tree-nodes]}: queryTreeNodes()
+2025-05-07 17:21:19,591 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:21:19,591 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:21:19,593 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2025-05-07 17:21:19,593 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2025-05-07 17:21:19,593 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:21:19,593 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:21:19,596 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-05-07 17:21:19,596 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-05-07 17:21:19,658 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:21:19,658 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:21:19,661 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-05-07 17:21:19,661 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-05-07 17:21:19,662 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-05-07 17:21:19,662 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-05-07 17:21:19,662 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-05-07 17:21:19,662 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-05-07 17:21:19,663 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:21:19,663 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:21:19,663 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-05-07 17:21:19,663 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-05-07 17:21:19,664 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:21:19,664 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:21:19,664 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:21:19,664 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:21:19,664 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:21:19,664 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:21:19,665 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:21:19,665 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:21:19,667 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:21:19,817 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-05-07 17:21:19,817 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-05-07 17:21:19,820 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-05-07 17:21:19,820 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-05-07 17:21:19,836 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-05-07 17:21:19,836 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-05-07 17:21:20,146 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:21:20,146 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2025-05-07 17:21:20,162 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-05-07 17:21:20,162 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2025-05-07 17:21:20,330 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-05-07 17:21:20,330 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-05-07 17:21:20,359 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-05-07 17:21:20,359 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2025-05-07 17:21:20,381 INFO [main][StartupInfoLogger.java:61] - Started LearningOnlineContentApiApplication in 3.938 seconds (JVM running for 5.35)
+2025-05-07 17:21:20,381 INFO [main][StartupInfoLogger.java:61] - Started LearningOnlineContentApiApplication in 3.938 seconds (JVM running for 5.35)
+2025-05-07 17:24:17,761 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 17:24:17,761 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 17:24:17,761 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-05-07 17:24:17,761 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-05-07 17:24:17,761 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2025-05-07 17:24:17,761 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - allowPoolSuspension................................false
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - allowPoolSuspension................................false
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - autoCommit................................true
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - autoCommit................................true
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - catalog................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - catalog................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionInitSql................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionInitSql................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTestQuery................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTestQuery................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTimeout................................30000
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - connectionTimeout................................30000
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSource................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSource................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceClassName................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceClassName................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceJNDI................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceJNDI................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckProperties................................{}
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckProperties................................{}
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckRegistry................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - healthCheckRegistry................................none
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - idleTimeout................................600000
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - idleTimeout................................600000
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - initializationFailTimeout................................1
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - initializationFailTimeout................................1
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - isolateInternalQueries................................false
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - isolateInternalQueries................................false
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.130.1:3306/lo_content_db?serverTimezone=UTC&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.130.1:3306/lo_content_db?serverTimezone=UTC&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - keepaliveTime................................0
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - keepaliveTime................................0
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maxLifetime................................1800000
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maxLifetime................................1800000
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maximumPoolSize................................10
+2025-05-07 17:24:17,864 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - maximumPoolSize................................10
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricRegistry................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricRegistry................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - minimumIdle................................10
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - minimumIdle................................10
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - password................................<masked>
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - password................................<masked>
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - readOnly................................false
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - readOnly................................false
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - registerMbeans................................false
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - registerMbeans................................false
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - scheduledExecutor................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - scheduledExecutor................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - schema................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - schema................................none
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - threadFactory................................internal
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - threadFactory................................internal
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - transactionIsolation................................default
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - transactionIsolation................................default
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - username................................"root"
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - username................................"root"
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - validationTimeout................................5000
+2025-05-07 17:24:17,877 DEBUG [http-nio-63040-exec-1][HikariConfig.java:1135] - validationTimeout................................5000
+2025-05-07 17:24:17,877 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-05-07 17:24:17,877 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-05-07 17:24:17,988 DEBUG [http-nio-63040-exec-1][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4136d7e1
+2025-05-07 17:24:17,988 DEBUG [http-nio-63040-exec-1][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4136d7e1
+2025-05-07 17:24:17,988 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-05-07 17:24:17,988 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-05-07 17:24:18,004 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_base ( company_id, name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date, audit_status, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:24:18,004 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_base ( company_id, name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date, audit_status, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:24:18,020 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), 测试课程103(String), 初级人员(String), 测试(String), 1-1(String), 1-1-1(String), 204001(String), 200002(String), 测试课程创建(String), (String), 2025-05-07T17:24:17.829(LocalDateTime), null, 202002(String), 203001(String)
+2025-05-07 17:24:18,020 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), 测试课程103(String), 初级人员(String), 测试(String), 1-1(String), 1-1-1(String), 204001(String), 200002(String), 测试课程创建(String), (String), 2025-05-07T17:24:17.829(LocalDateTime), null, 202002(String), 203001(String)
+2025-05-07 17:24:18,051 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:24:18,051 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:24:18,067 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:24:18,067 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:24:18,067 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2025-05-07 17:24:18,067 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2025-05-07 17:24:18,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 0
+2025-05-07 17:24:18,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 0
+2025-05-07 17:24:18,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_market ( id, charge, price, original_price, qq, wechat, phone, valid_days ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:24:18,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_market ( id, charge, price, original_price, qq, wechat, phone, valid_days ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:24:18,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long), 201000(String), 0.0(Float), 0.0(Float), 22333(String), 223344(String), 13333333(String), 365(Integer)
+2025-05-07 17:24:18,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long), 201000(String), 0.0(Float), 0.0(Float), 22333(String), 223344(String), 13333333(String), 365(Integer)
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d2f8a06
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d2f8a06
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c12803d
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c12803d
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dc479ad
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2dc479ad
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c3d7f72
+2025-05-07 17:24:18,115 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c3d7f72
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b152744
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b152744
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1-1(String)
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1-1(String)
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787367ee
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787367ee
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1(String)
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1(String)
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,131 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33e1a62b
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33e1a62b
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@662df735
+2025-05-07 17:24:18,131 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@662df735
+2025-05-07 17:24:18,147 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e85624
+2025-05-07 17:24:18,147 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e85624
+2025-05-07 17:24:18,147 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:24:18,147 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:24:48,129 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:24:48,129 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:24:48,129 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:24:48,129 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:25:15,183 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-05-07 17:25:15,183 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-05-07 17:25:15,211 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-05-07 17:25:15,211 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-05-07 17:25:15,220 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:25:15,220 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:25:15,221 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:25:15,221 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:25:15,222 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:25:15,222 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:25:15,222 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:25:15,222 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:25:15,227 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:25:15,227 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:25:15,242 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 1.8.0_432 on yhc with PID 42232 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-system\LearningOnline-system-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-05-07 17:25:15,242 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 1.8.0_432 on yhc with PID 42232 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-system\LearningOnline-system-api\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-05-07 17:25:15,244 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-05-07 17:25:15,244 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-05-07 17:25:15,245 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-05-07 17:25:15,245 INFO [main][SpringApplication.java:631] - No active profile set, falling back to 1 default profile: "default"
+2025-05-07 17:25:15,249 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:25:15,249 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:25:15,388 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:25:15,388 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:25:15,395 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:25:15,395 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:25:15,396 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:25:15,396 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:25:15,396 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:25:15,396 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:25:15,396 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:25:15,396 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:25:15,397 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:25:15,397 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:25:16,129 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-05-07 17:25:16,129 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-05-07 17:25:16,213 INFO [main][GenericScope.java:283] - BeanFactory id=307c504a-0609-314d-bb72-8a23ae5e8fe0
+2025-05-07 17:25:16,213 INFO [main][GenericScope.java:283] - BeanFactory id=307c504a-0609-314d-bb72-8a23ae5e8fe0
+2025-05-07 17:25:16,550 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2025-05-07 17:25:16,550 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63110 (http)
+2025-05-07 17:25:16,558 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2025-05-07 17:25:16,558 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63110"]
+2025-05-07 17:25:16,560 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-05-07 17:25:16,560 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-05-07 17:25:16,560 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-07 17:25:16,560 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-05-07 17:25:16,674 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-05-07 17:25:16,674 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-05-07 17:25:16,674 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1390 ms
+2025-05-07 17:25:16,674 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1390 ms
+2025-05-07 17:25:16,793 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-05-07 17:25:16,793 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-05-07 17:25:16,845 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4c86da0c'
+2025-05-07 17:25:16,845 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@4c86da0c'
+2025-05-07 17:25:16,846 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-05-07 17:25:16,846 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-05-07 17:25:17,841 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.s.c.DictionaryController:
+	{GET [/dictionary/code/{code}]}: getByCode(String)
+	{GET [/dictionary/all]}: queryAll()
+2025-05-07 17:25:17,841 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.s.c.DictionaryController:
+	{GET [/dictionary/code/{code}]}: getByCode(String)
+	{GET [/dictionary/all]}: queryAll()
+2025-05-07 17:25:17,844 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:25:17,844 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:25:17,845 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-05-07 17:25:17,845 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-05-07 17:25:17,847 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:25:17,847 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-05-07 17:25:17,851 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-05-07 17:25:17,851 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2025-05-07 17:25:17,948 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:25:17,948 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-05-07 17:25:17,950 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-05-07 17:25:17,950 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-05-07 17:25:17,951 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-05-07 17:25:17,951 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-05-07 17:25:17,951 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-05-07 17:25:17,951 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-05-07 17:25:17,952 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:25:17,952 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-05-07 17:25:17,952 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-05-07 17:25:17,952 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-05-07 17:25:17,953 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:25:17,953 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-05-07 17:25:17,953 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:25:17,953 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-05-07 17:25:17,953 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:25:17,953 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-05-07 17:25:17,954 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:25:17,954 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-05-07 17:25:17,956 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:25:17,956 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:25:17,957 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-05-07 17:25:17,959 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:25:17,959 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-05-07 17:25:18,123 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-05-07 17:25:18,123 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-05-07 17:25:18,127 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-05-07 17:25:18,127 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-05-07 17:25:18,134 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:25:18,134 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:25:18,134 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:25:18,134 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:25:18,142 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-05-07 17:25:18,142 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-05-07 17:25:18,289 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2025-05-07 17:25:18,289 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63110"]
+2025-05-07 17:25:18,310 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2025-05-07 17:25:18,310 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63110 (http) with context path '/system'
+2025-05-07 17:25:18,500 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 3.74 seconds (JVM running for 5.014)
+2025-05-07 17:25:18,500 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 3.74 seconds (JVM running for 5.014)
+2025-05-07 17:25:48,150 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:25:48,150 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:25:48,150 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:25:48,150 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:26:18,167 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:18,167 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:18,167 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:26:18,167 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:26:21,481 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 17:26:21,481 INFO [http-nio-63110-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-07 17:26:21,482 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-05-07 17:26:21,482 INFO [http-nio-63110-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2025-05-07 17:26:21,483 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2025-05-07 17:26:21,483 INFO [http-nio-63110-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2025-05-07 17:26:21,614 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2025-05-07 17:26:21,614 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2025-05-07 17:26:21,617 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - allowPoolSuspension................................false
+2025-05-07 17:26:21,617 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - allowPoolSuspension................................false
+2025-05-07 17:26:21,617 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - autoCommit................................true
+2025-05-07 17:26:21,617 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - autoCommit................................true
+2025-05-07 17:26:21,617 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - catalog................................none
+2025-05-07 17:26:21,617 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - catalog................................none
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - connectionInitSql................................none
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - connectionInitSql................................none
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - connectionTestQuery................................none
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - connectionTestQuery................................none
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - connectionTimeout................................30000
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - connectionTimeout................................30000
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSource................................none
+2025-05-07 17:26:21,618 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSource................................none
+2025-05-07 17:26:21,620 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSourceClassName................................none
+2025-05-07 17:26:21,620 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSourceClassName................................none
+2025-05-07 17:26:21,620 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSourceJNDI................................none
+2025-05-07 17:26:21,620 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSourceJNDI................................none
+2025-05-07 17:26:21,621 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2025-05-07 17:26:21,621 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2025-05-07 17:26:21,621 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2025-05-07 17:26:21,621 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2025-05-07 17:26:21,622 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2025-05-07 17:26:21,622 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2025-05-07 17:26:21,622 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - healthCheckProperties................................{}
+2025-05-07 17:26:21,622 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - healthCheckProperties................................{}
+2025-05-07 17:26:21,622 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - healthCheckRegistry................................none
+2025-05-07 17:26:21,622 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - healthCheckRegistry................................none
+2025-05-07 17:26:21,623 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - idleTimeout................................600000
+2025-05-07 17:26:21,623 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - idleTimeout................................600000
+2025-05-07 17:26:21,623 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - initializationFailTimeout................................1
+2025-05-07 17:26:21,623 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - initializationFailTimeout................................1
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - isolateInternalQueries................................false
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - isolateInternalQueries................................false
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.130.1:3306/lo_system_db?serverTimezone=UTC&useUnicode=true&useSSL=false&
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.130.1:3306/lo_system_db?serverTimezone=UTC&useUnicode=true&useSSL=false&
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - keepaliveTime................................0
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - keepaliveTime................................0
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - maxLifetime................................1800000
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - maxLifetime................................1800000
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - maximumPoolSize................................10
+2025-05-07 17:26:21,624 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - maximumPoolSize................................10
+2025-05-07 17:26:21,626 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - metricRegistry................................none
+2025-05-07 17:26:21,626 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - metricRegistry................................none
+2025-05-07 17:26:21,626 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2025-05-07 17:26:21,626 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2025-05-07 17:26:21,626 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - minimumIdle................................10
+2025-05-07 17:26:21,626 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - minimumIdle................................10
+2025-05-07 17:26:21,627 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - password................................<masked>
+2025-05-07 17:26:21,627 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - password................................<masked>
+2025-05-07 17:26:21,627 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2025-05-07 17:26:21,627 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2025-05-07 17:26:21,627 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - readOnly................................false
+2025-05-07 17:26:21,627 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - readOnly................................false
+2025-05-07 17:26:21,628 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - registerMbeans................................false
+2025-05-07 17:26:21,628 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - registerMbeans................................false
+2025-05-07 17:26:21,628 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - scheduledExecutor................................none
+2025-05-07 17:26:21,628 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - scheduledExecutor................................none
+2025-05-07 17:26:21,629 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - schema................................none
+2025-05-07 17:26:21,629 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - schema................................none
+2025-05-07 17:26:21,629 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - threadFactory................................internal
+2025-05-07 17:26:21,629 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - threadFactory................................internal
+2025-05-07 17:26:21,629 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - transactionIsolation................................default
+2025-05-07 17:26:21,629 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - transactionIsolation................................default
+2025-05-07 17:26:21,630 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - username................................"root"
+2025-05-07 17:26:21,630 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - username................................"root"
+2025-05-07 17:26:21,630 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - validationTimeout................................5000
+2025-05-07 17:26:21,630 DEBUG [http-nio-63110-exec-1][HikariConfig.java:1135] - validationTimeout................................5000
+2025-05-07 17:26:21,630 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-05-07 17:26:21,630 INFO [http-nio-63110-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2025-05-07 17:26:21,862 DEBUG [http-nio-63110-exec-1][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cc44745
+2025-05-07 17:26:21,862 DEBUG [http-nio-63110-exec-1][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cc44745
+2025-05-07 17:26:21,866 INFO [http-nio-63110-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-05-07 17:26:21,866 INFO [http-nio-63110-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2025-05-07 17:26:21,875 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-05-07 17:26:21,875 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2025-05-07 17:26:21,901 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:26:21,901 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:26:21,933 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-05-07 17:26:21,933 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2025-05-07 17:26:21,976 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-05-07 17:26:21,976 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2025-05-07 17:26:21,982 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4345c38a
+2025-05-07 17:26:21,982 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4345c38a
+2025-05-07 17:26:21,986 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@278c9b1
+2025-05-07 17:26:21,986 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@278c9b1
+2025-05-07 17:26:21,990 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33b04c09
+2025-05-07 17:26:21,990 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33b04c09
+2025-05-07 17:26:21,995 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@625736fe
+2025-05-07 17:26:21,995 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@625736fe
+2025-05-07 17:26:21,999 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29260a7c
+2025-05-07 17:26:21,999 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29260a7c
+2025-05-07 17:26:22,004 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66192818
+2025-05-07 17:26:22,004 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66192818
+2025-05-07 17:26:22,009 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74bcc6b1
+2025-05-07 17:26:22,009 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74bcc6b1
+2025-05-07 17:26:22,014 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36c292d
+2025-05-07 17:26:22,014 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36c292d
+2025-05-07 17:26:22,018 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@347cc6c2
+2025-05-07 17:26:22,018 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@347cc6c2
+2025-05-07 17:26:22,019 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:22,019 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:22,363 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2025-05-07 17:26:22,363 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2025-05-07 17:26:22,363 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:26:22,363 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:26:22,379 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:26:22,379 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:26:22,381 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2025-05-07 17:26:22,381 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2025-05-07 17:26:22,381 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2025-05-07 17:26:22,381 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2025-05-07 17:26:22,387 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:26:22,387 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:26:27,207 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: WITH RECURSIVE t1 AS (SELECT * FROM course_category WHERE id = ? UNION ALL SELECT c.* FROM course_category c JOIN t1 ON c.parentid = t1.id) SELECT * FROM t1 ORDER BY t1.id, t1.orderby;
+2025-05-07 17:26:27,207 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: WITH RECURSIVE t1 AS (SELECT * FROM course_category WHERE id = ? UNION ALL SELECT c.* FROM course_category c JOIN t1 ON c.parentid = t1.id) SELECT * FROM t1 ORDER BY t1.id, t1.orderby;
+2025-05-07 17:26:27,213 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2025-05-07 17:26:27,213 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2025-05-07 17:26:27,229 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 144
+2025-05-07 17:26:27,229 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 144
+2025-05-07 17:26:48,175 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:48,175 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:48,175 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:26:48,175 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:26:51,978 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:51,978 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:26:51,978 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:26:51,978 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:18,178 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:18,178 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:18,178 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:18,178 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:21,991 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:21,991 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:21,991 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:21,991 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:48,192 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:48,192 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:48,192 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:48,192 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:51,993 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:51,993 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:27:51,993 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:27:51,993 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:05,766 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_base ( company_id, name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date, audit_status, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:28:05,766 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_base ( company_id, name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date, audit_status, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:28:05,766 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), springboot测试课程(String), Java初级工程师(String), spring boot，测试(String), 1-15(String), 1-15-1(String), 204001(String), 200002(String), springboot测试课程(String), (String), 2025-05-07T17:28:05.762(LocalDateTime), null, 202002(String), 203001(String)
+2025-05-07 17:28:05,766 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), springboot测试课程(String), Java初级工程师(String), spring boot，测试(String), 1-15(String), 1-15-1(String), 204001(String), 200002(String), springboot测试课程(String), (String), 2025-05-07T17:28:05.762(LocalDateTime), null, 202002(String), 203001(String)
+2025-05-07 17:28:05,771 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:28:05,771 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:28:05,772 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:28:05,772 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:28:05,772 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long)
+2025-05-07 17:28:05,772 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long)
+2025-05-07 17:28:05,773 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 0
+2025-05-07 17:28:05,773 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 0
+2025-05-07 17:28:05,773 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_market ( id, charge, price, original_price, qq, wechat, phone, valid_days ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:28:05,773 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_market ( id, charge, price, original_price, qq, wechat, phone, valid_days ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2025-05-07 17:28:05,775 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long), 201001(String), 2.0(Float), 23.0(Float), 3233457(String), 12345789(String), 375649(String), 365(Integer)
+2025-05-07 17:28:05,775 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long), 201001(String), 2.0(Float), 23.0(Float), 3233457(String), 12345789(String), 375649(String), 365(Integer)
+2025-05-07 17:28:05,779 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:28:05,779 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==    Updates: 1
+2025-05-07 17:28:05,780 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2025-05-07 17:28:05,780 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2025-05-07 17:28:05,780 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long)
+2025-05-07 17:28:05,780 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long)
+2025-05-07 17:28:05,782 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:05,782 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:05,782 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:28:05,782 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2025-05-07 17:28:05,782 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long)
+2025-05-07 17:28:05,782 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 123(Long)
+2025-05-07 17:28:05,783 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:05,783 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:05,784 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:28:05,784 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:28:05,785 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1-15-1(String)
+2025-05-07 17:28:05,785 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1-15-1(String)
+2025-05-07 17:28:05,785 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:05,785 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:05,787 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:28:05,787 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2025-05-07 17:28:05,787 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1-15(String)
+2025-05-07 17:28:05,787 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 1-15(String)
+2025-05-07 17:28:05,792 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:05,792 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:18,200 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:18,200 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:18,200 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:18,200 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:28:20,676 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:28:22,008 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:22,008 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:22,008 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:22,008 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:26,347 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:26,347 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:26,349 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %测试%(String)
+2025-05-07 17:28:26,349 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %测试%(String)
+2025-05-07 17:28:26,349 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:26,349 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:26,351 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:28:26,351 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:28:26,351 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %测试%(String), 10(Long)
+2025-05-07 17:28:26,351 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %测试%(String), 10(Long)
+2025-05-07 17:28:26,353 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:28:26,353 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %测试课程%(String)
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %测试课程%(String)
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %测试课程%(String), 10(Long)
+2025-05-07 17:28:29,666 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %测试课程%(String), 10(Long)
+2025-05-07 17:28:29,676 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:28:29,676 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:28:41,783 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:41,783 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:41,784 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: %spring测试课程%(String)
+2025-05-07 17:28:41,784 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: %spring测试课程%(String)
+2025-05-07 17:28:41,784 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:41,784 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:45,565 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:45,565 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:28:45,565 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课程%(String)
+2025-05-07 17:28:45,565 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课程%(String)
+2025-05-07 17:28:45,566 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:45,566 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:45,567 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:28:45,567 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:28:45,567 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课程%(String), 10(Long)
+2025-05-07 17:28:45,567 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课程%(String), 10(Long)
+2025-05-07 17:28:45,568 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:45,568 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:28:48,206 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:48,206 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:48,206 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:48,206 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:52,023 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:52,023 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:28:52,023 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:28:52,023 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课%(String)
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课%(String)
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课%(String), 10(Long)
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试课%(String), 10(Long)
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,192 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试%(String)
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试%(String)
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试%(String), 10(Long)
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测试%(String), 10(Long)
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,443 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测%(String)
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测%(String)
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测%(String), 10(Long)
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %springboot测%(String), 10(Long)
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,713 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,743 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,743 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,743 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %springboot%(String)
+2025-05-07 17:29:01,743 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %springboot%(String)
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %springboot%(String), 10(Long)
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: %springboot%(String), 10(Long)
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,751 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,767 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,767 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,774 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: %springboo%(String)
+2025-05-07 17:29:01,774 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: %springboo%(String)
+2025-05-07 17:29:01,775 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,775 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,775 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,775 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,776 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: %springboo%(String), 10(Long)
+2025-05-07 17:29:01,776 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: %springboo%(String), 10(Long)
+2025-05-07 17:29:01,776 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,776 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,809 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,809 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,816 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: %springbo%(String)
+2025-05-07 17:29:01,816 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: %springbo%(String)
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: %springbo%(String), 10(Long)
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: %springbo%(String), 10(Long)
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,817 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %springb%(String)
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %springb%(String)
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %springb%(String), 10(Long)
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: %springb%(String), 10(Long)
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,843 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 3
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %spring%(String)
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %spring%(String)
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %spring%(String), 10(Long)
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: %spring%(String), 10(Long)
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:01,878 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,026 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,026 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,040 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: %sprin%(String)
+2025-05-07 17:29:02,040 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: %sprin%(String)
+2025-05-07 17:29:02,041 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,041 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,043 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,043 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,043 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: %sprin%(String), 10(Long)
+2025-05-07 17:29:02,043 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: %sprin%(String), 10(Long)
+2025-05-07 17:29:02,044 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,044 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,063 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,063 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,063 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %spri%(String)
+2025-05-07 17:29:02,063 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %spri%(String)
+2025-05-07 17:29:02,064 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,064 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,065 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,065 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,065 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %spri%(String), 10(Long)
+2025-05-07 17:29:02,065 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: %spri%(String), 10(Long)
+2025-05-07 17:29:02,066 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,066 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,096 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,096 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,097 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %spr%(String)
+2025-05-07 17:29:02,097 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %spr%(String)
+2025-05-07 17:29:02,098 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,098 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,098 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,098 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,098 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %spr%(String), 10(Long)
+2025-05-07 17:29:02,098 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - ==> Parameters: %spr%(String), 10(Long)
+2025-05-07 17:29:02,099 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,099 DEBUG [http-nio-63040-exec-2][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,130 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,130 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,130 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %sp%(String)
+2025-05-07 17:29:02,130 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %sp%(String)
+2025-05-07 17:29:02,131 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,131 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,132 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,132 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,132 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %sp%(String), 10(Long)
+2025-05-07 17:29:02,132 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: %sp%(String), 10(Long)
+2025-05-07 17:29:02,133 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,133 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 9
+2025-05-07 17:29:02,163 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,163 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base WHERE (name LIKE ?)
+2025-05-07 17:29:02,164 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %s%(String)
+2025-05-07 17:29:02,164 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %s%(String)
+2025-05-07 17:29:02,164 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,164 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,166 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,166 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE (name LIKE ?) LIMIT ?
+2025-05-07 17:29:02,166 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %s%(String), 10(Long)
+2025-05-07 17:29:02,166 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: %s%(String), 10(Long)
+2025-05-07 17:29:02,167 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:29:02,167 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) AS total FROM course_base
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:29:02,192 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 10
+2025-05-07 17:29:18,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:18,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:18,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:29:18,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:29:22,031 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:22,031 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:22,031 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:29:22,031 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-07 17:29:23,280 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-05-07 17:29:23,280 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-05-07 17:29:23,280 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:23,280 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:23,280 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4136d7e1: (connection evicted)
+2025-05-07 17:29:23,280 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4136d7e1: (connection evicted)
+2025-05-07 17:29:23,280 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-05-07 17:29:23,280 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2025-05-07 17:29:23,280 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:23,280 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2025-05-07 17:29:23,280 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d2f8a06: (connection evicted)
+2025-05-07 17:29:23,280 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d2f8a06: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c12803d: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c12803d: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2dc479ad: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2dc479ad: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c3d7f72: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c3d7f72: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b152744: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b152744: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@787367ee: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@787367ee: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33e1a62b: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33e1a62b: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@662df735: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@662df735: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e85624: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e85624: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-05-07 17:29:23,296 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-05-07 17:29:23,296 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-05-07 17:29:23,296 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5cc44745: (connection evicted)
+2025-05-07 17:29:23,296 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5cc44745: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4345c38a: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4345c38a: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@278c9b1: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@278c9b1: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33b04c09: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33b04c09: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@625736fe: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@625736fe: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29260a7c: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29260a7c: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66192818: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66192818: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74bcc6b1: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74bcc6b1: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36c292d: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@36c292d: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@347cc6c2: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@347cc6c2: (connection evicted)
+2025-05-07 17:29:23,304 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-05-07 17:29:23,304 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2025-05-07 17:29:23,304 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2025-05-07 17:29:23,304 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

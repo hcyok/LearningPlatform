@@ -2,6 +2,7 @@ package com.learningonline.content.service.Impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.learningonline.base.exception.LearningPlatformException;
 import com.learningonline.base.model.PageParams;
 import com.learningonline.base.model.PageResult;
 import com.learningonline.content.mapper.CourseBaseMapper;
@@ -68,7 +69,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
         //合法性校验
         if (StringUtils.isBlank(dto.getName())) {
-            throw new RuntimeException("课程名称为空");
+            throw new LearningPlatformException("课程名称为空");
         }
 
         if (StringUtils.isBlank(dto.getMt())) {
@@ -137,7 +138,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         //收费规则为收费
         if (charge.equals("201001")) {
             if (courseMarketNew.getPrice() == null || courseMarketNew.getPrice().floatValue() <= 0) {
-                throw new RuntimeException("课程为收费价格不能为空且必须大于0");
+                throw new LearningPlatformException("课程为收费价格不能为空且必须大于0");
             }
         }
         //根据id从课程营销表查询
