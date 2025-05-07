@@ -2,6 +2,8 @@ package com.learningonline.content.api.controller;
 
 import com.learningonline.base.model.PageParams;
 import com.learningonline.base.model.PageResult;
+import com.learningonline.content.model.dto.AddCourseDto;
+import com.learningonline.content.model.dto.CourseBaseInfoDto;
 import com.learningonline.content.model.dto.QueryCourseParamsDto;
 import com.learningonline.content.model.pojo.CourseBase;
 import com.learningonline.content.service.CourseBaseInfoService;
@@ -27,5 +29,11 @@ public class CourseBaseInfoController {
     public PageResult<CourseBase> queryCourseList(
             PageParams pageParams, @RequestBody(required = false) QueryCourseParamsDto queryCourseParamsDto) {
         return courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto);
+    }
+    @ApiOperation("新增课程")
+    @PostMapping("/course")
+    public CourseBaseInfoDto addCourse(@RequestBody AddCourseDto addCourseDto) {
+        Long companyId = 1232141425L;
+        return courseBaseInfoService.createCourseBase(companyId, addCourseDto);
     }
 }

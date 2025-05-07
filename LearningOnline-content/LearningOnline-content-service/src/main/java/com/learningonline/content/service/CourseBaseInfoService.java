@@ -2,6 +2,8 @@ package com.learningonline.content.service;
 
 import com.learningonline.base.model.PageParams;
 import com.learningonline.base.model.PageResult;
+import com.learningonline.content.model.dto.AddCourseDto;
+import com.learningonline.content.model.dto.CourseBaseInfoDto;
 import com.learningonline.content.model.dto.QueryCourseParamsDto;
 import com.learningonline.content.model.pojo.CourseBase;
 
@@ -20,5 +22,14 @@ public interface CourseBaseInfoService {
      * @return com.learningonline.base.model.PageResult<com.learningonline.content.model.pojo.CourseBase>
      */
     PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto);
+    /**
+     *  添加课程基本信息
+     * @param companyId  教学机构id
+     * @param addCourseDto  课程基本信息
+     * @return com.learningonline.content.model.dto.CourseBaseInfoDto
+     * @author yhc
+     * @since  2022/9/7 17:51
+     */
+    CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
 
 }
