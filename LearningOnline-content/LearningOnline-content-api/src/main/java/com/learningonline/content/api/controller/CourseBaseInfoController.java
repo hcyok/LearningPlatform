@@ -1,18 +1,19 @@
 package com.learningonline.content.api.controller;
 
+import com.learningonline.base.exception.ValidationGroups;
 import com.learningonline.base.model.PageParams;
 import com.learningonline.base.model.PageResult;
 import com.learningonline.content.model.dto.AddCourseDto;
 import com.learningonline.content.model.dto.CourseBaseInfoDto;
+import com.learningonline.content.model.dto.EditCourseDto;
 import com.learningonline.content.model.dto.QueryCourseParamsDto;
 import com.learningonline.content.model.pojo.CourseBase;
 import com.learningonline.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * 课程信息接口
@@ -32,8 +33,21 @@ public class CourseBaseInfoController {
     }
     @ApiOperation("新增课程")
     @PostMapping("/course")
-    public CourseBaseInfoDto addCourse(@RequestBody AddCourseDto addCourseDto) {
+    public CourseBaseInfoDto addCourse(@RequestBody@Validated(value = ValidationGroups.Inster.class) AddCourseDto addCourseDto) {
         Long companyId = 1232141425L;
         return courseBaseInfoService.createCourseBase(companyId, addCourseDto);
     }
+    @ApiOperation("根据id查询课程")
+    @GetMapping("/course/{courseId}")
+    public CourseBaseInfoDto queryCourseById(@PathVariable("courseId") Long courseId) {
+        return courseBaseInfoService.getCourseBaseInfo(courseId);
+    }
+    @ApiOperation("修改课程基础信息")
+    @PutMapping("/course")
+    public CourseBaseInfoDto modifyCourseBase(@RequestBody @Validated EditCourseDto editCourseDto){
+        //机构id，由于认证系统没有上线暂时硬编码
+        Long companyId = 1232141425L;
+        return courseBaseInfoService.updateCourseBase(companyId,editCourseDto);
+    }
+
 }

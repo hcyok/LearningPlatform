@@ -2,6 +2,7 @@ package com.learningonline.content.service.Impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.learningonline.base.exception.CommonError;
 import com.learningonline.base.exception.LearningPlatformException;
 import com.learningonline.base.model.PageParams;
 import com.learningonline.base.model.PageResult;
@@ -10,6 +11,7 @@ import com.learningonline.content.mapper.CourseCategoryMapper;
 import com.learningonline.content.mapper.CourseMarketMapper;
 import com.learningonline.content.model.dto.AddCourseDto;
 import com.learningonline.content.model.dto.CourseBaseInfoDto;
+import com.learningonline.content.model.dto.EditCourseDto;
 import com.learningonline.content.model.dto.QueryCourseParamsDto;
 import com.learningonline.content.model.pojo.CourseBase;
 import com.learningonline.content.model.pojo.CourseCategory;
@@ -19,9 +21,11 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * 课程基本信息业务实现类
@@ -65,36 +69,9 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
 
     @Override
+    @Transactional
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto dto) {
 
-        //合法性校验
-        if (StringUtils.isBlank(dto.getName())) {
-            throw new LearningPlatformException("课程名称为空");
-        }
-
-        if (StringUtils.isBlank(dto.getMt())) {
-            throw new RuntimeException("课程分类为空");
-        }
-
-        if (StringUtils.isBlank(dto.getSt())) {
-            throw new RuntimeException("课程分类为空");
-        }
-
-        if (StringUtils.isBlank(dto.getGrade())) {
-            throw new RuntimeException("课程等级为空");
-        }
-
-        if (StringUtils.isBlank(dto.getTeachmode())) {
-            throw new RuntimeException("教育模式为空");
-        }
-
-        if (StringUtils.isBlank(dto.getUsers())) {
-            throw new RuntimeException("适应人群为空");
-        }
-
-        if (StringUtils.isBlank(dto.getCharge())) {
-            throw new RuntimeException("收费规则为空");
-        }
         //向base表插入数据
         //新增对象
         CourseBase courseBaseNew = new CourseBase();
@@ -111,7 +88,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         //插入课程基本信息表
         int insert = courseBaseMapper.insert(courseBaseNew);
         if (insert <= 0) {
-            throw new RuntimeException("新增课程基本信息失败");
+            throw new LearningPlatformException("新增课程基本信息失败");
         }
         //向课程营销表保存课程营销信息
         //课程营销信息
@@ -121,7 +98,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         courseMarketNew.setId(courseId);
         int i = saveCourseMarket(courseMarketNew);
         if (i <= 0) {
-            throw new RuntimeException("保存课程营销信息失败");
+            throw new LearningPlatformException("保存课程营销信息失败");
         }
         //查询课程基本信息及营销信息并返回
         return getCourseBaseInfo(courseId);
@@ -133,7 +110,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         //收费规则
         String charge = courseMarketNew.getCharge();
         if (StringUtils.isBlank(charge)) {
-            throw new RuntimeException("收费规则没有选择");
+            throw new LearningPlatformException("收费规则没有选择");
         }
         //收费规则为收费
         if (charge.equals("201001")) {
@@ -153,7 +130,8 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     }
 
     //根据课程id查询课程基本信息，包括基本信息和营销信息
-    public CourseBaseInfoDto getCourseBaseInfo(long courseId) {
+    @Override
+    public CourseBaseInfoDto getCourseBaseInfo(Long courseId) {
         //从基本信息表查询信息
         CourseBase courseBase = courseBaseMapper.selectById(courseId);
         if (courseBase == null) {
@@ -176,6 +154,45 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
         return courseBaseInfoDto;
 
+    }
+
+    /**
+     * 修改课程基本信息
+     *
+     * @param companyId     机构id
+     * @param editCourseDto 修改课程金额本信息
+     * @return com.learningonline.content.model.dto.CourseBaseInfoDto
+     */
+    @Override
+    public CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto editCourseDto) {
+       Long courseId = editCourseDto.getId();
+       CourseBase courseBase=courseBaseMapper.selectById(courseId);
+       if(courseBase==null){
+           LearningPlatformException.cast("课程不存在");
+       }
+       if(!courseBase.getCompanyId().equals(companyId)) {
+            LearningPlatformException.cast("该机构不能修改不属于自己的课程");
+       }
+       BeanUtils.copyProperties(editCourseDto, courseBase);
+        //重新设置审核状态
+        courseBase.setAuditStatus("202002");
+        //重新设置发布状态
+        courseBase.setStatus("203001");
+        courseBase.setChangeDate(LocalDateTime.now());
+        int update = courseBaseMapper.updateById(courseBase);
+        if(update<=0){
+            throw new LearningPlatformException("修改基本信息失败");
+        }
+        CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
+        if(courseMarket==null){
+            LearningPlatformException.cast("课程营销信息不存在");
+        }
+        BeanUtils.copyProperties(editCourseDto, courseMarket);
+        int update2=courseMarketMapper.updateById(courseMarket);
+        if(update2<=0){
+            throw new LearningPlatformException("修改课程营销信息失败");
+        }
+        return this.getCourseBaseInfo(courseId);
     }
 
 }

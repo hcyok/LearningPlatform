@@ -1,0 +1,3 @@
+2025-05-09 15:27:34,834 ERROR [http-nio-63040-exec-1][GlobalExceptionHandle.java:52] - 【系统异常】添加课程名称不能为空
+2025-05-09 15:31:45,844 ERROR [http-nio-63040-exec-1][GlobalExceptionHandle.java:52] - 【系统异常】邮箱格式不对
+2025-05-09 15:32:21,878 ERROR [http-nio-63040-exec-3][GlobalExceptionHandle.java:52] - 【系统异常】添加课程名称不能为空,邮箱格式不对

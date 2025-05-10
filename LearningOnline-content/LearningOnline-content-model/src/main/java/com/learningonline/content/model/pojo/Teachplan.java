@@ -4,8 +4,10 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import org.springframework.validation.annotation.Validated;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -48,12 +50,12 @@ public class Teachplan implements Serializable {
     /**
      * 开始直播时间
      */
-    private Date startTime;
+    private LocalDateTime startTime;
 
     /**
      * 直播结束时间
      */
-    private Date endTime;
+    private LocalDateTime endTime;
 
     /**
      * 章节及课程时介绍
@@ -93,12 +95,12 @@ public class Teachplan implements Serializable {
     /**
      * 创建时间
      */
-    private Date createDate;
+    private LocalDateTime createDate;
 
     /**
      * 修改时间
      */
-    private Date changeDate;
+    private LocalDateTime changeDate;
 
 
 }
