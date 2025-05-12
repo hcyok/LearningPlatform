@@ -1,11 +1,15 @@
 package com.learningonline.content.model.pojo;
 
+import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -36,11 +40,13 @@ public class CourseTeacher implements Serializable {
     /**
      * 教师标识
      */
+    @NotEmpty(message = "教师名字不能为空")
     private String teacherName;
 
     /**
      * 教师职位
      */
+    @NotEmpty(message = "教师职位不能为空")
     private String position;
 
     /**
@@ -56,7 +62,8 @@ public class CourseTeacher implements Serializable {
     /**
      * 创建时间
      */
-    private Date createDate;
+    @TableField(fill = FieldFill.INSERT)
+    private LocalDateTime createDate;
 
 
 }

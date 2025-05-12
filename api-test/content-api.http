@@ -87,5 +87,35 @@ DELETE {{content_host}}/content/teachplan/292
 ### 移动课程计划
 POST {{content_host}}/content/teachplan/movedown/259
 
+### 查询课程下所有教师
+GET {{content_host}}/content/courseTeacher/list/80
+
+###新增课程下的老师
+POST {{content_host}}/content/courseTeacher
+Content-Type: application/json
+
+{
+  "courseId": 80,
+  "teacherName": "王老",
+  "position": "教师职位",
+  "introduction": "教师简介"
+}
+###修改课程下的老师
+POST {{content_host}}/content/courseTeacher
+Content-Type: application/json
+
+{
+  "id": 22,
+  "courseId": 80,
+  "teacherName": "yhc",
+  "position": "教师职位",
+  "introduction": "教师简介",
+  "photograph": null
+}
+###删除教师
+DELETE {{content_host}}/content/courseTeacher/course/80/24
+
+
+
 
 

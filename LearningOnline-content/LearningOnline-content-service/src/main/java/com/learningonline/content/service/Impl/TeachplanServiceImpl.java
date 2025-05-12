@@ -132,14 +132,17 @@ public class TeachplanServiceImpl implements TeachplanService {
         long parentId = teachplanCurrent.getParentid();
         long courseId = teachplanCurrent.getCourseId();
         int oderby = teachplanCurrent.getOrderby();
+        //是否有其他同级子目录
         int count = getTeachplanCount(courseId, parentId);
         if (count > 1) {
+            //得到升序排列的同级子目录
             List<Teachplan> teachplanList = new ArrayList<>();
             LambdaQueryWrapper<Teachplan> teachplanQueryWrapper = new LambdaQueryWrapper<>();
             teachplanQueryWrapper.eq(Teachplan::getCourseId, courseId)
                     .eq(Teachplan::getParentid, parentId)
                     .orderByAsc(Teachplan::getOrderby);
             teachplanList = teachplanMapper.selectList(teachplanQueryWrapper);
+            //比较位置
             int indexOfTeachplan = teachplanList.indexOf(teachplanCurrent);
             if (moveType.equals("movedown")) {
                 if (indexOfTeachplan == teachplanList.size() - 1) {
