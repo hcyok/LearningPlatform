@@ -43,7 +43,7 @@ public class TeachplanController {
     }
 
     @ApiOperation("课程计划删除")
-    @DeleteMapping("/teachplan/{moveType}/{teachplanId}")
+    @PostMapping("/teachplan/{moveType}/{teachplanId}")
     public void moveTeachplan(@PathVariable String moveType, @PathVariable Long teachplanId) {
         teachplanService.MoveTeachplan(moveType,teachplanId);
     }

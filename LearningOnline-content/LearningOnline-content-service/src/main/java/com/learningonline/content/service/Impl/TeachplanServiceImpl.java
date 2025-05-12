@@ -121,7 +121,7 @@ public class TeachplanServiceImpl implements TeachplanService {
     }
 
     /**
-     * 课程计划排序
+     * 课程计划排序,交换顺序
      *
      * @param moveType    移动类型
      * @param teachplanId 课程计划id
@@ -145,26 +145,23 @@ public class TeachplanServiceImpl implements TeachplanService {
                 if (indexOfTeachplan == teachplanList.size() - 1) {
                     LearningPlatformException.cast("已经在最下边了，别移动了");
                 }
-                for (int i = indexOfTeachplan + 1; i < teachplanList.size(); i++) {
-                    Teachplan teachplanTarget = teachplanList.get(i);
-                   swapOrderby(teachplanCurrent, teachplanTarget);
-                }
+                Teachplan teachplanTarget = teachplanList.get(indexOfTeachplan + 1);
+                swapOrderby(teachplanCurrent, teachplanTarget);
             } else if (moveType.equals("moveup")) {
                 if (indexOfTeachplan == 0) {
                     LearningPlatformException.cast("已经在最上边了，不能再移动了");
                 }
-                for (int i = indexOfTeachplan - 1; i >= 0; i++) {
-                    Teachplan teachplanTarget = teachplanList.get(i);
-                    swapOrderby(teachplanCurrent, teachplanTarget);
-                }
+                Teachplan teachplanTarget = teachplanList.get(indexOfTeachplan - 1);
+                swapOrderby(teachplanCurrent, teachplanTarget);
             } else LearningPlatformException.cast("移动参数出错");
-        } else LearningPlatformException.cast("该目录下没有课程计划");
+        } else LearningPlatformException.cast("该目录下可移动的课程计划");
     }
 
     /**
      * 交换课程计划orderby
+     *
      * @param teachplanCurrent 原计划
-     * @param teachplanTarget 要交换的计划
+     * @param teachplanTarget  要交换的计划
      */
     private void swapOrderby(Teachplan teachplanCurrent, Teachplan teachplanTarget) {
         int temOderby = teachplanCurrent.getOrderby();
@@ -172,6 +169,8 @@ public class TeachplanServiceImpl implements TeachplanService {
         teachplanTarget.setOrderby(temOderby);
         teachplanCurrent.setChangeDate(LocalDateTime.now());
         teachplanTarget.setChangeDate(LocalDateTime.now());
+        teachplanMapper.updateById(teachplanCurrent);
+        teachplanMapper.updateById(teachplanTarget);
     }
 
     /**

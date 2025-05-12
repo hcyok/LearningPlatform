@@ -84,4 +84,8 @@ Content-Type: application/json
 ### 删除课程计划
 DELETE {{content_host}}/content/teachplan/292
 
+### 移动课程计划
+POST {{content_host}}/content/teachplan/movedown/259
+
+
 
