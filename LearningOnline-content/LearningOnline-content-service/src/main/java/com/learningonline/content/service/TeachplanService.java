@@ -33,4 +33,11 @@ public interface TeachplanService {
      * @author yhc
      */
     public void deleteTeachplan(long teachplanId);
+
+    /**
+     * 课程计划排序
+     * @param moveType 移动类型
+     * @param teachplanId 课程计划id
+     */
+    public void MoveTeachplan(String moveType, Long teachplanId);
 }

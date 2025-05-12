@@ -1,142 +1,32 @@
-2025-05-10 21:00:05,884 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:05,884 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:05,884 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-05-10 21:00:05,884 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,pname,parentid,grade,media_type,start_time,end_time,description,timelength,orderby,course_id,course_pub_id,status,is_preview,create_date,change_date FROM teachplan WHERE id=?
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,pname,parentid,grade,media_type,start_time,end_time,description,timelength,orderby,course_id,course_pub_id,status,is_preview,create_date,change_date FROM teachplan WHERE id=?
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT( * ) AS total FROM teachplan WHERE (parentid = ?)
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT( * ) AS total FROM teachplan WHERE (parentid = ?)
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: DELETE FROM teachplan WHERE id=?
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: DELETE FROM teachplan WHERE id=?
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,348 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==    Updates: 1
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==    Updates: 1
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT( * ) AS total FROM teachplan_media WHERE (teachplan_id = ?)
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT( * ) AS total FROM teachplan_media WHERE (teachplan_id = ?)
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:06,364 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:11,365 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:11,365 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:11,365 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-05-10 21:00:11,365 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-05-10 21:00:29,192 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,pname,parentid,grade,media_type,start_time,end_time,description,timelength,orderby,course_id,course_pub_id,status,is_preview,create_date,change_date FROM teachplan WHERE id=?
-2025-05-10 21:00:29,192 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,pname,parentid,grade,media_type,start_time,end_time,description,timelength,orderby,course_id,course_pub_id,status,is_preview,create_date,change_date FROM teachplan WHERE id=?
-2025-05-10 21:00:29,192 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:29,192 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 293(Long)
-2025-05-10 21:00:29,192 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 0
-2025-05-10 21:00:29,192 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 0
-2025-05-10 21:00:29,208 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET pname=?,change_date=? WHERE (id = ?)
-2025-05-10 21:00:29,208 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET pname=?,change_date=? WHERE (id = ?)
-2025-05-10 21:00:29,208 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 第一小节：开车(String), 2025-05-10T21:00:29.208(LocalDateTime), 293(Long)
-2025-05-10 21:00:29,208 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 第一小节：开车(String), 2025-05-10T21:00:29.208(LocalDateTime), 293(Long)
-2025-05-10 21:00:29,218 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==    Updates: 0
-2025-05-10 21:00:29,218 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==    Updates: 0
-2025-05-10 21:00:32,305 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
-2025-05-10 21:00:32,305 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
-2025-05-10 21:00:32,305 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
-2025-05-10 21:00:32,305 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
-2025-05-10 21:00:32,305 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - <==      Total: 17
-2025-05-10 21:00:32,305 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - <==      Total: 17
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: WITH RECURSIVE t1 AS (SELECT * FROM course_category WHERE id = ? UNION ALL SELECT c.* FROM course_category c JOIN t1 ON c.parentid = t1.id) SELECT * FROM t1 ORDER BY t1.id, t1.orderby;
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==>  Preparing: WITH RECURSIVE t1 AS (SELECT * FROM course_category WHERE id = ? UNION ALL SELECT c.* FROM course_category c JOIN t1 ON c.parentid = t1.id) SELECT * FROM t1 ORDER BY t1.id, t1.orderby;
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:32,466 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:32,480 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:32,480 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:32,480 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
-2025-05-10 21:00:32,480 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
-2025-05-10 21:00:32,480 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:32,480 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:32,486 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:32,486 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:32,486 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 144
-2025-05-10 21:00:32,486 DEBUG [http-nio-63040-exec-9][BaseJdbcLogger.java:137] - <==      Total: 144
-2025-05-10 21:00:32,499 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:32,499 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:32,499 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 1-4-2(String)
-2025-05-10 21:00:32,499 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 1-4-2(String)
-2025-05-10 21:00:32,502 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:32,502 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:32,505 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:32,505 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:32,505 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 1-4(String)
-2025-05-10 21:00:32,505 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 1-4(String)
-2025-05-10 21:00:32,505 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:32,505 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,486 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
-2025-05-10 21:00:35,486 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
-2025-05-10 21:00:35,486 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,486 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,486 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,486 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_base SET company_id=?, name=?, users=?, tags=?, mt=?, st=?, grade=?, teachmode=?, description=?, pic=?, create_date=?, change_date=?, audit_status=?, status=? WHERE id=?
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_base SET company_id=?, name=?, users=?, tags=?, mt=?, st=?, grade=?, teachmode=?, description=?, pic=?, create_date=?, change_date=?, audit_status=?, status=? WHERE id=?
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), yhc授课(String), 适用人群适用人群适用人群(String), Java(String), 1-4(String), 1-4-2(String), 204003(String), 200002(String), 达拉达拉滴滴答(String), (String), 2025-05-10T18:10:49(LocalDateTime), 2025-05-10T21:00:35.495(LocalDateTime), 202002(String), 203001(String), 128(Long)
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), yhc授课(String), 适用人群适用人群适用人群(String), Java(String), 1-4(String), 1-4-2(String), 204003(String), 200002(String), 达拉达拉滴滴答(String), (String), 2025-05-10T18:10:49(LocalDateTime), 2025-05-10T21:00:35.495(LocalDateTime), 202002(String), 203001(String), 128(Long)
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,495 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,509 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,509 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_market SET charge=?, price=?, original_price=?, qq=?, wechat=?, phone=?, valid_days=? WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE course_market SET charge=?, price=?, original_price=?, qq=?, wechat=?, phone=?, valid_days=? WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 201001(String), 2357.0(Float), 1570.0(Float), 54376@we.com(String), 123456(String), 12367(String), 365(Integer), 128(Long)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 201001(String), 2357.0(Float), 1570.0(Float), 54376@we.com(String), 123456(String), 12367(String), 365(Integer), 128(Long)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==    Updates: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-4-2(String)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-4-2(String)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-4(String)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - ==> Parameters: 1-4(String)
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,511 DEBUG [http-nio-63040-exec-7][BaseJdbcLogger.java:137] - <==      Total: 1
-2025-05-10 21:00:35,530 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: select one.id one_id, one.pname one_pname, one.parentid one_parentid, one.grade one_grade, one.media_type one_mediaType, one.start_time one_stratTime, one.end_time one_endTime, one.orderby one_orderby, one.course_id one_courseId, one.course_pub_id one_coursePubId, two.id two_id, two.pname two_pname, two.parentid two_parentid, two.grade two_grade, two.media_type two_mediaType, two.start_time two_stratTime, two.end_time two_endTime, two.orderby two_orderby, two.course_id two_courseId, two.course_pub_id two_coursePubId, m1.media_fileName mediaFilename, m1.id teachplanMeidaId, m1.media_id mediaId from teachplan one left join teachplan two on one.id = two.parentid left outer join teachplan_media m1 on two.id = m1.teachplan_id where one.parentid = 0 and one.course_id = ? order by one.orderby, two.orderby;
-2025-05-10 21:00:35,530 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: select one.id one_id, one.pname one_pname, one.parentid one_parentid, one.grade one_grade, one.media_type one_mediaType, one.start_time one_stratTime, one.end_time one_endTime, one.orderby one_orderby, one.course_id one_courseId, one.course_pub_id one_coursePubId, two.id two_id, two.pname two_pname, two.parentid two_parentid, two.grade two_grade, two.media_type two_mediaType, two.start_time two_stratTime, two.end_time two_endTime, two.orderby two_orderby, two.course_id two_courseId, two.course_pub_id two_coursePubId, m1.media_fileName mediaFilename, m1.id teachplanMeidaId, m1.media_id mediaId from teachplan one left join teachplan two on one.id = two.parentid left outer join teachplan_media m1 on two.id = m1.teachplan_id where one.parentid = 0 and one.course_id = ? order by one.orderby, two.orderby;
-2025-05-10 21:00:35,530 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,530 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: 128(Long)
-2025-05-10 21:00:35,530 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 2
-2025-05-10 21:00:35,530 DEBUG [http-nio-63040-exec-8][BaseJdbcLogger.java:137] - <==      Total: 2
-2025-05-10 21:00:35,897 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:35,897 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:35,897 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-05-10 21:00:35,897 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-05-10 21:00:41,373 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:41,373 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
-2025-05-10 21:00:41,373 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
-2025-05-10 21:00:41,373 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:00:14,039 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:00:14,039 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:00:14,039 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:00:14,039 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:00:30,527 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:00:30,527 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:00:30,527 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:00:30,527 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:00:44,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:00:44,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:00:44,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:00:44,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:00,528 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:00,528 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:00,528 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:00,528 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:14,059 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:14,059 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:14,059 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:14,059 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:30,533 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:30,533 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:30,533 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:30,533 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:44,076 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:44,076 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:01:44,076 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:01:44,076 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:02:00,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:02:00,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2025-05-12 15:02:00,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2025-05-12 15:02:00,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.

@@ -42,4 +42,9 @@ public class TeachplanController {
         teachplanService.deleteTeachplan(teachplanId);
     }
 
+    @ApiOperation("课程计划删除")
+    @DeleteMapping("/teachplan/{moveType}/{teachplanId}")
+    public void moveTeachplan(@PathVariable String moveType, @PathVariable Long teachplanId) {
+        teachplanService.MoveTeachplan(moveType,teachplanId);
+    }
 }

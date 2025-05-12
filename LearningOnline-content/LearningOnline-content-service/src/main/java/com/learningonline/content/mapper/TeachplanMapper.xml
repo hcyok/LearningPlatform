@@ -96,4 +96,10 @@
         order by one.orderby, two.orderby;
     </select>
 
+    <select id="getMaxOrderBy" resultType="int" parameterType="long">
+        select coalesce(max(orderby),0)
+        from teachplan
+        where parentid=#{parentId} and course_id=#{courseId};
+    </select>
+
 </mapper>
