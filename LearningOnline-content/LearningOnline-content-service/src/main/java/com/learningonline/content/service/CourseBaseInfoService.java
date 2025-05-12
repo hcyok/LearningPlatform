@@ -49,4 +49,11 @@ public interface CourseBaseInfoService {
      * @return com.learningonline.content.model.dto.CourseBaseInfoDto
      */
     CourseBaseInfoDto updateCourseBase(Long companyId, EditCourseDto editCourseDto);
+
+    /**
+     * 删除课程
+     * @param companyId 机构id
+     * @param courseId 课程id
+     */
+    void deleteCourse(Long companyId, Long courseId);
 }

@@ -115,6 +115,9 @@ Content-Type: application/json
 ###删除教师
 DELETE {{content_host}}/content/courseTeacher/course/80/24
 
+###删除课程
+DELETE {{content_host}}/content/course/40
+
 
 
 

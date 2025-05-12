@@ -6,16 +6,12 @@ import com.learningonline.base.exception.CommonError;
 import com.learningonline.base.exception.LearningPlatformException;
 import com.learningonline.base.model.PageParams;
 import com.learningonline.base.model.PageResult;
-import com.learningonline.content.mapper.CourseBaseMapper;
-import com.learningonline.content.mapper.CourseCategoryMapper;
-import com.learningonline.content.mapper.CourseMarketMapper;
+import com.learningonline.content.mapper.*;
 import com.learningonline.content.model.dto.AddCourseDto;
 import com.learningonline.content.model.dto.CourseBaseInfoDto;
 import com.learningonline.content.model.dto.EditCourseDto;
 import com.learningonline.content.model.dto.QueryCourseParamsDto;
-import com.learningonline.content.model.pojo.CourseBase;
-import com.learningonline.content.model.pojo.CourseCategory;
-import com.learningonline.content.model.pojo.CourseMarket;
+import com.learningonline.content.model.pojo.*;
 import com.learningonline.content.service.CourseBaseInfoService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -42,6 +38,14 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     private CourseCategoryMapper courseCategoryMapper;
     @Autowired
     private CourseMarketMapper courseMarketMapper;
+    @Autowired
+    private TeachplanMapper teachplanMapper;
+    @Autowired
+    TeachplanMediaMapper teachplanMediaMapper;
+    @Autowired
+    TeachplanWorkMapper teachplanWorkMapper;
+    @Autowired
+    CourseTeacherMapper courseTeacherMapper;
 
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto) {
@@ -193,6 +197,64 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
             throw new LearningPlatformException("修改课程营销信息失败");
         }
         return this.getCourseBaseInfo(courseId);
+    }
+
+    /**
+     * 删除课程
+     *
+     * @param companyId 机构id
+     * @param courseId  课程id
+     */
+    @Transactional
+    @Override
+    public void deleteCourse(Long companyId, Long courseId) {
+        //基本信息
+        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        if(courseBase==null){
+            LearningPlatformException.cast("课程不存在");
+        }
+        //验证机构
+        if(!courseBase.getCompanyId().equals(companyId)) {
+            LearningPlatformException.cast("课程不属于该机构");
+        }
+        if(courseBase.getAuditStatus().equals("202002")){
+            courseBaseMapper.deleteById(courseId);
+        }
+       else{
+           LearningPlatformException.cast("审核状态不是未提交");
+        }
+        //营销信息
+        CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
+        if(courseMarket!=null){
+            courseMarketMapper.deleteById(courseId);
+        }
+        //课程计划
+        LambdaQueryWrapper<Teachplan> teachplanLambdaQueryWrapper = new LambdaQueryWrapper<>();
+        teachplanLambdaQueryWrapper.eq(Teachplan::getCourseId, courseId);
+        List<Teachplan> teachplanList = teachplanMapper.selectList(teachplanLambdaQueryWrapper);
+        if(!teachplanList.isEmpty()){
+            teachplanMapper.delete(teachplanLambdaQueryWrapper);
+        }
+        //课程计划关联信息，media和work
+        LambdaQueryWrapper<TeachplanMedia> teachplanMediaLambdaQueryWrapper = new LambdaQueryWrapper<>();
+        teachplanMediaLambdaQueryWrapper.eq(TeachplanMedia::getCourseId, courseId);
+        List<TeachplanMedia> teachplanMediaList=teachplanMediaMapper.selectList(teachplanMediaLambdaQueryWrapper);
+        if(!teachplanMediaList.isEmpty()){
+            teachplanMediaMapper.delete(teachplanMediaLambdaQueryWrapper);
+        }
+        LambdaQueryWrapper<TeachplanWork> teachplanWorkLambdaQueryWrapper = new LambdaQueryWrapper<>();
+        teachplanWorkLambdaQueryWrapper.eq(TeachplanWork::getCourseId, courseId);
+        List<TeachplanWork> teachplanWorkList = teachplanWorkMapper.selectList(teachplanWorkLambdaQueryWrapper);
+        if(!teachplanWorkList.isEmpty()){
+            teachplanWorkMapper.delete(teachplanWorkLambdaQueryWrapper);
+        }
+        //师资信息
+        LambdaQueryWrapper<CourseTeacher> courseTeacherLambdaQueryWrapper = new LambdaQueryWrapper<>();
+        courseTeacherLambdaQueryWrapper.eq(CourseTeacher::getCourseId, courseId);
+        List<CourseTeacher> courseTeacherList=courseTeacherMapper.selectList(courseTeacherLambdaQueryWrapper);
+        if(!courseTeacherList.isEmpty()){
+            courseTeacherMapper.delete(courseTeacherLambdaQueryWrapper);
+        }
     }
 
 }
