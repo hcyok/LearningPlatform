@@ -1,22 +1,33 @@
-server:
-  servlet:
-    context-path: /system
-  port: 63110
+
 #微服务配置
 spring:
   application:
     name: system-api
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.130.1:3306/lo_system_db?serverTimezone=UTC&useUnicode=true&useSSL=false&
-    username: root
-    password: 123456
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
+  profiles:
+    active: dev
+  config:
+    import:
+      - optional:nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+        # 扩展配置（原 extension-configs）
+      - optional:nacos:system-service-${spring.profiles.active}.yaml?group=LearningPlatform&refresh=true
+        # 共享配置（原 shared-configs）
+      - optional:nacos:swagger-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+      - optional:nacos:logging-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+  cloud:
+    nacos:
+      server-addr: 192.168.130.128:8848
+      discovery:
+        namespace: dev
+        group: LearningPlatform
+      config:
+        namespace: dev
+        group: LearningPlatform
+        file-extension: yaml
+        refresh-enabled: true
 
-# 日志文件配置路径
-logging:
-  config: classpath:log4j2-dev.xml
+
+
+
+
 
 

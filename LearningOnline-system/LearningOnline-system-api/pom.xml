@@ -8,8 +8,8 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>LearningOnline-system-api</artifactId>
-    <name>xuecheng-plus-system-api</name>
-    <description>xuecheng-plus-system-api</description>
+    <name>LearningOnline-system-api</name>
+    <description>LearningOnline-system-api</description>
 
     <dependencies>
         <dependency>
@@ -27,6 +27,15 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-context</artifactId>
+        </dependency>
+        <!--nacos集成-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
         <!-- Spring Boot 的 Spring Web MVC 集成 -->

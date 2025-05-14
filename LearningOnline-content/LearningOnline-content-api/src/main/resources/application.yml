@@ -1,18 +1,41 @@
-server:
-  servlet:
-    context-path: /content
-  port: 63040
+
 spring:
   application:
     name: content-api
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.130.1:3306/lo_content_db?serverTimezone=UTC&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: 123456
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
+  profiles:
+    active: dev
+  config:
+    import:
+      - optional:nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}??group=LearningPlatform&refresh-enabled=true
+      # 扩展配置（原 extension-configs）
+      - optional:nacos:content-service-${spring.profiles.active}.yaml?group=LearningPlatform&refresh=true
+      # 共享配置（原 shared-configs）
+      - optional:nacos:swagger-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+      - optional:nacos:logging-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+  cloud:
+    nacos:
+      server-addr: 192.168.130.128:8848
+      discovery:
+        namespace: dev
+        group: LearningPlatform
+      config:
+        namespace: dev
+        group: LearningPlatform
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: LearningPlatform
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: LearningPlatform-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: LearningPlatform-common
+            refresh: true
 
-logging:
-  config: classpath:log4j2.xml
+
+
+
+
