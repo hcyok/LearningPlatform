@@ -6,7 +6,7 @@ spring:
     active: dev
   config:
     import:
-      - optional:nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}??group=LearningPlatform&refresh-enabled=true
+      - optional:nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}?group=LearningPlatform&refresh-enabled=true
       # 扩展配置（原 extension-configs）
       - optional:nacos:content-service-${spring.profiles.active}.yaml?group=LearningPlatform&refresh=true
       # 共享配置（原 shared-configs）
