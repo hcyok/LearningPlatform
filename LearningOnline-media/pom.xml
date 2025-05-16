@@ -6,6 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>LearningOnline-media</name>
     <description>LearningOnline-media</description>
+    <packaging>pom</packaging>
     <parent>
         <groupId>com.LearningOnline</groupId>
         <artifactId>LearningOnline-parent</artifactId>

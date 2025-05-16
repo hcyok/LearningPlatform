@@ -1,4 +1,4 @@
-2025-05-16 10:13:57,670 ERROR [main][NacosServiceRegistry.java:81] - nacos registry, content-api register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='192.168.130.128:8848', username='', password='', endpoint='', namespace='dev', watchDelay=30000, logName='', service='content-api', weight=1.0, clusterName='DEFAULT', group='LearningPlatform', namingLoadCacheAtStart='false', metadata={IPv6=[2400:6000:a:bd9e:cb08:9b94:52da:cc], preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.130.1', networkInterface='', port=63040, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, instanceEnabled=true, ephemeral=true, failureToleranceEnabled=false}, ipDeleteTimeout=null, failFast=true}},
+2025-05-14 19:55:49,417 ERROR [main][NacosServiceRegistry.java:81] - nacos registry, content-api register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='192.168.130.128:8848', username='', password='', endpoint='', namespace='dev', watchDelay=30000, logName='', service='content-api', weight=1.0, clusterName='DEFAULT', group='LearningPlatform', namingLoadCacheAtStart='false', metadata={IPv6=[2400:6000:a:afe3:32b3:1a5a:5b02:7b84], preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.130.1', networkInterface='', port=63040, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null, instanceEnabled=true, ephemeral=true, failureToleranceEnabled=false}, ipDeleteTimeout=null, failFast=true}},
 ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:639)
 	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:619)
@@ -35,7 +35,7 @@ ErrCode:-401, ErrMsg:Client not connected, current status:STARTING
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
 	at com.learningonline.content.api.LearningOnlineContentApiApplication.main(LearningOnlineContentApiApplication.java:14)
-2025-05-16 10:13:58,378 ERROR [main][SpringApplication.java:821] - Application run failed
+2025-05-14 19:55:50,109 ERROR [main][SpringApplication.java:821] - Application run failed
 org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
 	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
 	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)

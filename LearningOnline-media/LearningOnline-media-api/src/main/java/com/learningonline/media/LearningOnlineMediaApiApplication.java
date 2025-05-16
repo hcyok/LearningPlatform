@@ -1,9 +1,9 @@
-package com.learningonline.media.api;
+package com.learningonline.media;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.learningonline")
 public class LearningOnlineMediaApiApplication {
 
     public static void main(String[] args) {

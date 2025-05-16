@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-   <parent>
-       <groupId>com.LearningOnline</groupId>
-       <artifactId>LearningOnline-media</artifactId>
-       <version>0.0.1-SNAPSHOT</version>
-   </parent>
     <artifactId>LearningOnline-media-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>LearningOnline-media-api</name>
     <description>LearningOnline-media-api</description>
+    <parent>
+        <groupId>com.LearningOnline</groupId>
+        <artifactId>LearningOnline-media</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <dependencies>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -81,9 +81,10 @@
         </dependency>
         <!--  Spring Boot 集成 swagger  -->
         <dependency>
-            <groupId>com.spring4all</groupId>
-            <artifactId>swagger-spring-boot-starter</artifactId>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>
