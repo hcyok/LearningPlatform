@@ -1,0 +1,37 @@
+#微服务配置
+spring:
+  application:
+    name: media-api
+  cloud:
+    nacos:
+      server-addr: 192.168.130.128:8848
+      discovery:
+        namespace: dev
+        group: LearningPlatform
+      config:
+        namespace: dev
+        group: LearningPlatform
+        file-extension: yaml
+        refresh-enabled: true
+        extension-configs:
+          - data-id: media-service-${spring.profiles.active}.yaml
+            group: LearningPlatform
+            refresh: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: LearningPlatform-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: LearningPlatform-common
+            refresh: true
+  profiles:
+    active: dev
+  config:
+    import:
+      - optional:nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}?group=LearningPlatform&refresh-enabled=true
+      # 扩展配置（原 extension-configs）
+      - optional:nacos:media-service-${spring.profiles.active}.yaml?group=LearningPlatform&refresh=true
+      # 共享配置（原 shared-configs）
+      - optional:nacos:swagger-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+      - optional:nacos:logging-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+
