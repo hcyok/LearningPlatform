@@ -2,6 +2,7 @@ package com.learningonline.media.service;
 
 import com.learningonline.base.model.PageParams;
 import com.learningonline.base.model.PageResult;
+import com.learningonline.base.model.RestResponse;
 import com.learningonline.media.model.dto.QueryMediaParamsDto;
 import com.learningonline.media.model.dto.UploadFileParamsDto;
 import com.learningonline.media.model.dto.UploadFileResultDto;
@@ -40,4 +41,38 @@ public interface MediaFilesService {
      */
      MediaFiles addMediaFilesToDB(UploadFileParamsDto uploadFileParamsDto,Long companyId,String fileMd5,
                                         String objectName,String bucket);
+
+    /**
+     * 检查文件
+     * @param fileMd5 文件MD5
+     * @return com.learningonline.base.model.RestResponse<Boolean></Boolean>
+     */
+     RestResponse<Boolean> checkFile(String fileMd5);
+
+    /**
+     * 检查文件分片
+     * @param fileMd5 文件MD5
+     * @param chunkIndex 分片序号
+     * @return com.learningonline.base.model.RestResponse<Boolean></Boolean>
+     */
+     RestResponse<Boolean> checkChunk(String fileMd5,int chunkIndex);
+
+    /**
+     * 上传分片
+     * @param fileMd5 文件MD5
+     * @param chunkIndex 分片序号
+     * @param localChunkPath 分片本地地址
+     * @return com.learningonline.base.model.RestResponse<Boolean></Boolean>
+     */
+     RestResponse<Boolean> uploadChunk(String fileMd5, int chunkIndex,String localChunkPath);
+
+    /**
+     * 合并分片
+     * @param fileMd5 文件MD5
+     * @param chunkTotal 分片总数
+     * @param uploadFileParamsDto 上传文件的信息
+     * @param companyId 机构id
+     * @return
+     */
+     RestResponse<Boolean> mergeChunk(String fileMd5, int chunkTotal,UploadFileParamsDto uploadFileParamsDto,Long companyId);
 }

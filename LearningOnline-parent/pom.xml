@@ -30,6 +30,8 @@
         <okhttp.version>4.8.1</okhttp.version>
         <springfox-boot-starter.version>3.0.0</springfox-boot-starter.version>
         <elasticsearch.version>7.12.1</elasticsearch.version>
+
+
     </properties>
 
 
@@ -64,6 +66,8 @@
                 <artifactId>lombok</artifactId>
                 <version>${org.projectlombok.version}</version>
             </dependency>
+
+
             <!-- mapstruct 代码生成器，简化java bean之间的映射 -->
             <dependency>
                 <groupId>org.mapstruct</groupId>
