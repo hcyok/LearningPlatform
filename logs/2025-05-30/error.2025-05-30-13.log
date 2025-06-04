@@ -1,0 +1,18 @@
+2025-06-03 16:56:54,683 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mp4VideoUtil in com.learningonline.media.jobhandler.VideoTask required a bean of type 'com.learningonline.base.utils.Mp4VideoUtil' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.learningonline.base.utils.Mp4VideoUtil' in your configuration.
+

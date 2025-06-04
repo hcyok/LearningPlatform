@@ -1,71 +1,32 @@
-2025-05-30 13:21:43,965 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:279] - 检查文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0
-2025-05-30 13:21:43,995 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:0
-2025-05-30 13:21:44,693 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:1
-2025-05-30 13:21:45,312 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:2
-2025-05-30 13:21:45,901 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:3
-2025-05-30 13:21:46,486 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:4
-2025-05-30 13:21:46,896 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:5
-2025-05-30 13:21:47,497 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:6
-2025-05-30 13:21:47,899 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:7
-2025-05-30 13:21:48,491 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:8
-2025-05-30 13:21:48,867 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:9
-2025-05-30 13:21:49,447 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:10
-2025-05-30 13:21:49,823 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:11
-2025-05-30 13:21:50,404 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:12
-2025-05-30 13:21:50,768 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:13
-2025-05-30 13:21:51,358 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:14
-2025-05-30 13:21:51,710 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:15
-2025-05-30 13:21:52,300 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:16
-2025-05-30 13:21:52,677 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:17
-2025-05-30 13:21:53,257 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:18
-2025-05-30 13:21:53,664 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:19
-2025-05-30 13:21:54,245 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:20
-2025-05-30 13:21:54,604 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:21
-2025-05-30 13:21:55,186 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:22
-2025-05-30 13:21:55,542 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:23
-2025-05-30 13:21:56,128 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:24
-2025-05-30 13:21:56,489 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:25
-2025-05-30 13:21:57,070 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:26
-2025-05-30 13:21:57,440 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:27
-2025-05-30 13:21:58,024 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:28
-2025-05-30 13:21:58,373 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:29
-2025-05-30 13:21:58,948 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:30
-2025-05-30 13:21:59,320 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:31
-2025-05-30 13:21:59,904 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:32
-2025-05-30 13:22:00,259 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:33
-2025-05-30 13:22:00,841 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:305] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:34
-2025-05-30 13:40:36,141 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:0
-2025-05-30 13:40:36,832 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:1
-2025-05-30 13:40:37,306 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:2
-2025-05-30 13:40:37,891 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:3
-2025-05-30 13:40:38,329 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:4
-2025-05-30 13:40:38,922 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:5
-2025-05-30 13:40:39,345 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:6
-2025-05-30 13:40:39,939 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:7
-2025-05-30 13:40:40,309 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:8
-2025-05-30 13:40:40,894 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:9
-2025-05-30 13:40:41,240 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:10
-2025-05-30 13:40:41,836 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:11
-2025-05-30 13:40:42,207 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:12
-2025-05-30 13:40:42,790 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:13
-2025-05-30 13:40:43,137 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:14
-2025-05-30 13:40:43,719 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:15
-2025-05-30 13:40:44,078 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:16
-2025-05-30 13:40:44,662 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:17
-2025-05-30 13:40:45,060 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:18
-2025-05-30 13:40:45,655 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:19
-2025-05-30 13:40:46,074 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:20
-2025-05-30 13:40:46,720 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:21
-2025-05-30 13:40:47,058 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:22
-2025-05-30 13:40:47,515 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:23
-2025-05-30 13:40:48,109 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:24
-2025-05-30 13:40:48,444 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:25
-2025-05-30 13:40:49,034 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:26
-2025-05-30 13:40:49,383 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:27
-2025-05-30 13:40:49,974 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:28
-2025-05-30 13:40:50,346 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:29
-2025-05-30 13:40:50,929 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:30
-2025-05-30 13:40:51,280 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:31
-2025-05-30 13:40:51,874 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:32
-2025-05-30 13:40:52,247 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:33
-2025-05-30 13:40:52,834 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:303] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:34
+2025-06-03 21:05:47,190 ERROR [pool-5-thread-1][VideoTask.java:109] - 上传文件或者更新处理结果失败，任务：2，原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'media_process_history.PRIMARY'
+### The error may exist in com/learningonline/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.learningonline.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( id, file_id, filename, bucket, status, create_date, finish_date, url, fail_count, file_path, errormsg )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'media_process_history.PRIMARY'
+; Duplicate entry '2' for key 'media_process_history.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'media_process_history.PRIMARY'
+2025-06-03 21:12:19,545 ERROR [pool-6-thread-2][VideoTask.java:109] - 上传文件或者更新处理结果失败，任务：3，原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'media_process_history.PRIMARY'
+### The error may exist in com/learningonline/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.learningonline.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( id, file_id, filename, bucket, status, create_date, finish_date, url, fail_count, file_path, errormsg )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'media_process_history.PRIMARY'
+; Duplicate entry '3' for key 'media_process_history.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'media_process_history.PRIMARY'
+2025-06-03 21:12:31,016 ERROR [pool-6-thread-1][VideoTask.java:109] - 上传文件或者更新处理结果失败，任务：2，原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'media_process_history.PRIMARY'
+### The error may exist in com/learningonline/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.learningonline.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( id, file_id, filename, bucket, status, create_date, finish_date, url, fail_count, file_path, errormsg )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'media_process_history.PRIMARY'
+; Duplicate entry '2' for key 'media_process_history.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'media_process_history.PRIMARY'
+2025-06-03 21:12:31,966 ERROR [pool-6-thread-1][VideoTask.java:109] - 上传文件或者更新处理结果失败，任务：1，原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'media_process_history.PRIMARY'
+### The error may exist in com/learningonline/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.learningonline.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( id, file_id, filename, bucket, status, create_date, finish_date, url, fail_count, file_path, errormsg )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'media_process_history.PRIMARY'
+; Duplicate entry '1' for key 'media_process_history.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'media_process_history.PRIMARY'

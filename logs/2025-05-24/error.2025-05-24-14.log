@@ -1,0 +1,40 @@
+2025-05-24 14:39:50,007 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   mediaFilesController (field private com.learningonline.media.service.MediaFilesService com.learningonline.media.controller.MediaFilesController.mediaFilesService)
+┌─────┐
+|  mediaFilesServiceImpl (field com.learningonline.media.service.MediaFilesService com.learningonline.media.service.Impl.MediaFilesServiceImpl.currentProxy)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-05-24 14:55:04,156 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   mediaFilesController (field private com.learningonline.media.service.MediaFilesService com.learningonline.media.controller.MediaFilesController.mediaFilesService)
+┌─────┐
+|  mediaFilesServiceImpl (field com.learningonline.media.service.MediaFilesService com.learningonline.media.service.Impl.MediaFilesServiceImpl.currentProxy)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+

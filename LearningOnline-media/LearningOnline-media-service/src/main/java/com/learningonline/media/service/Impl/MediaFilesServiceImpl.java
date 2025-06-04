@@ -168,7 +168,7 @@ public class MediaFilesServiceImpl implements MediaFilesService {
      * @param localFilePath 文件路径
      * @return
      */
-    private boolean uploadFileToMinio(String mimeType, String objectName, String bucket, String localFilePath) {
+    public boolean uploadFileToMinio(String mimeType, String objectName, String bucket, String localFilePath) {
         try {
             UploadObjectArgs uploadObjectArgs = UploadObjectArgs.builder()
                     .bucket(bucket).
@@ -419,7 +419,7 @@ public class MediaFilesServiceImpl implements MediaFilesService {
      * @param filePath objectname即存储路径
      * @return 下载的文件
      */
-    private File downdloadFileFromMinio(String bucket, String filePath) {
+    public File downdloadFileFromMinio(String bucket, String filePath) {
         File minioFile = null;
         FileOutputStream fileOutputStream = null;
         try {

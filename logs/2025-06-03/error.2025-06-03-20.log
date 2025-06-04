@@ -1,0 +1,16 @@
+2025-06-03 21:05:37,301 ERROR [pool-5-thread-2][VideoTask.java:109] - 上传文件或者更新处理结果失败，任务：3，原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'media_process_history.PRIMARY'
+### The error may exist in com/learningonline/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.learningonline.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( id, file_id, filename, bucket, status, create_date, finish_date, url, fail_count, file_path, errormsg )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'media_process_history.PRIMARY'
+; Duplicate entry '3' for key 'media_process_history.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'media_process_history.PRIMARY'
+2025-06-03 21:05:46,975 ERROR [pool-5-thread-1][VideoTask.java:109] - 上传文件或者更新处理结果失败，任务：1，原因：
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'media_process_history.PRIMARY'
+### The error may exist in com/learningonline/media/mapper/MediaProcessHistoryMapper.java (best guess)
+### The error may involve com.learningonline.media.mapper.MediaProcessHistoryMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO media_process_history  ( id, file_id, filename, bucket, status, create_date, finish_date, url, fail_count, file_path, errormsg )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'media_process_history.PRIMARY'
+; Duplicate entry '1' for key 'media_process_history.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'media_process_history.PRIMARY'

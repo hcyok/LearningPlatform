@@ -1,0 +1,142 @@
+2025-05-24 19:21:13,386 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:0
+2025-05-24 19:21:13,667 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:1
+2025-05-24 19:21:13,711 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:2
+2025-05-24 19:21:14,006 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:3
+2025-05-24 19:21:14,039 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:4
+2025-05-24 19:21:14,330 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:5
+2025-05-24 19:21:14,376 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:6
+2025-05-24 19:21:14,656 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:7
+2025-05-24 19:21:14,706 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:8
+2025-05-24 19:21:14,980 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:9
+2025-05-24 19:21:15,048 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:10
+2025-05-24 19:21:15,319 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:11
+2025-05-24 19:21:15,382 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:12
+2025-05-24 19:21:15,645 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:13
+2025-05-24 19:21:15,709 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:14
+2025-05-24 19:21:15,970 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:15
+2025-05-24 19:21:16,048 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:16
+2025-05-24 19:21:16,295 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:17
+2025-05-24 19:21:16,375 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:18
+2025-05-24 19:21:16,620 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:19
+2025-05-24 19:21:16,711 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:20
+2025-05-24 19:21:16,963 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:21
+2025-05-24 19:21:17,034 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:22
+2025-05-24 19:21:17,298 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:23
+2025-05-24 19:21:17,358 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:24
+2025-05-24 19:21:17,624 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:25
+2025-05-24 19:21:17,685 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:26
+2025-05-24 19:21:17,948 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:27
+2025-05-24 19:21:18,009 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:28
+2025-05-24 19:21:18,274 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:29
+2025-05-24 19:21:18,337 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:30
+2025-05-24 19:21:18,599 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:31
+2025-05-24 19:21:18,660 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:32
+2025-05-24 19:21:18,924 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:33
+2025-05-24 19:21:18,984 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The difference between the request time and the server's time is too large.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:34
+2025-05-24 19:21:19,280 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:344] - 合并失败：Access denied，bucket:video，合并文件：3/c/3c28c0ae00e4fcf02d6d71097852d5d0/3c28c0ae00e4fcf02d6d71097852d5d0.mp4
+2025-05-24 19:33:49,009 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:0
+2025-05-24 19:33:49,774 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:1
+2025-05-24 19:33:50,362 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:2
+2025-05-24 19:33:50,817 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:3
+2025-05-24 19:33:51,415 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:4
+2025-05-24 19:33:51,849 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:5
+2025-05-24 19:33:52,444 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:6
+2025-05-24 19:33:52,872 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:7
+2025-05-24 19:33:53,456 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:8
+2025-05-24 19:33:53,881 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:9
+2025-05-24 19:33:54,484 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:10
+2025-05-24 19:33:54,860 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:11
+2025-05-24 19:33:55,439 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:12
+2025-05-24 19:33:55,868 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:13
+2025-05-24 19:33:56,458 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:14
+2025-05-24 19:33:56,845 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:15
+2025-05-24 19:33:57,438 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:16
+2025-05-24 19:33:57,910 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:17
+2025-05-24 19:33:58,527 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:18
+2025-05-24 19:33:59,124 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:19
+2025-05-24 19:33:59,753 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:20
+2025-05-24 19:34:00,361 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:21
+2025-05-24 19:34:01,087 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:22
+2025-05-24 19:34:01,683 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:23
+2025-05-24 19:34:02,082 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:24
+2025-05-24 19:34:02,676 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:25
+2025-05-24 19:34:03,108 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:26
+2025-05-24 19:34:03,691 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:27
+2025-05-24 19:34:04,112 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:28
+2025-05-24 19:34:04,700 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:29
+2025-05-24 19:34:05,107 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:30
+2025-05-24 19:34:05,694 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:31
+2025-05-24 19:34:06,074 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:32
+2025-05-24 19:34:06,659 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:33
+2025-05-24 19:34:07,071 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:34
+2025-05-24 19:38:04,906 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:0
+2025-05-24 19:38:05,231 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:1
+2025-05-24 19:38:05,675 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:2
+2025-05-24 19:38:06,343 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:3
+2025-05-24 19:38:06,685 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:4
+2025-05-24 19:38:07,277 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:5
+2025-05-24 19:38:07,676 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:6
+2025-05-24 19:38:08,274 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:7
+2025-05-24 19:38:08,669 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:8
+2025-05-24 19:38:09,255 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:9
+2025-05-24 19:38:09,631 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:10
+2025-05-24 19:38:10,213 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:11
+2025-05-24 19:38:10,650 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:12
+2025-05-24 19:38:11,239 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:13
+2025-05-24 19:38:11,604 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:14
+2025-05-24 19:38:12,198 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:15
+2025-05-24 19:38:12,560 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:16
+2025-05-24 19:38:13,154 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:17
+2025-05-24 19:38:13,549 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:18
+2025-05-24 19:38:14,121 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:19
+2025-05-24 19:38:14,492 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:20
+2025-05-24 19:38:15,076 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:21
+2025-05-24 19:38:15,437 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:22
+2025-05-24 19:38:16,020 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:23
+2025-05-24 19:38:16,402 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:24
+2025-05-24 19:38:16,996 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:25
+2025-05-24 19:38:17,378 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:26
+2025-05-24 19:38:17,972 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:27
+2025-05-24 19:38:18,317 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:28
+2025-05-24 19:38:18,898 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:29
+2025-05-24 19:38:19,280 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:30
+2025-05-24 19:38:19,864 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:31
+2025-05-24 19:38:20,256 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:32
+2025-05-24 19:38:20,846 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:33
+2025-05-24 19:38:21,261 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:34
+2025-05-24 19:42:44,345 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:248] - 检查文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0
+2025-05-24 19:42:44,588 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:0
+2025-05-24 19:42:44,913 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:1
+2025-05-24 19:42:45,389 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:2
+2025-05-24 19:42:45,981 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:3
+2025-05-24 19:42:46,360 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:4
+2025-05-24 19:42:46,942 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:5
+2025-05-24 19:42:47,333 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:6
+2025-05-24 19:42:47,918 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:7
+2025-05-24 19:42:48,415 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:8
+2025-05-24 19:42:49,004 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:9
+2025-05-24 19:42:49,435 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:10
+2025-05-24 19:42:50,030 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:11
+2025-05-24 19:42:50,413 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:12
+2025-05-24 19:42:51,006 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:13
+2025-05-24 19:42:51,437 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:14
+2025-05-24 19:42:52,021 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:15
+2025-05-24 19:42:52,396 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:16
+2025-05-24 19:42:52,973 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:17
+2025-05-24 19:42:53,383 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:18
+2025-05-24 19:42:53,965 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:19
+2025-05-24 19:42:54,333 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:20
+2025-05-24 19:42:54,913 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:21
+2025-05-24 19:42:55,294 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:22
+2025-05-24 19:42:55,884 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:23
+2025-05-24 19:42:56,280 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:24
+2025-05-24 19:42:56,865 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:25
+2025-05-24 19:42:57,226 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:26
+2025-05-24 19:42:57,808 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:27
+2025-05-24 19:42:58,166 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:28
+2025-05-24 19:42:58,747 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:29
+2025-05-24 19:42:59,133 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:30
+2025-05-24 19:42:59,719 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:31
+2025-05-24 19:43:00,134 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:32
+2025-05-24 19:43:00,713 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:33
+2025-05-24 19:43:01,143 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:34

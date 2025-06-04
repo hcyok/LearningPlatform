@@ -1,0 +1,2 @@
+2025-06-03 21:00:00,004 DEBUG [xxl-job, JobThread-5-1748955599830][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ?=? and (t.status='1'or status='3')and t.fail_count<3 limit ?
+2025-06-03 21:00:00,004 DEBUG [xxl-job, JobThread-5-1748955599830][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ?=? and (t.status='1'or status='3')and t.fail_count<3 limit ?

@@ -1,0 +1,209 @@
+2025-05-24 17:03:00,771 ERROR [main][SpringApplication.java:821] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.learningonline.media.LearningOnlineMediaApiApplication.main(LearningOnlineMediaApiApplication.java:14)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 21 more
+2025-05-24 17:10:30,321 ERROR [main][SpringApplication.java:821] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.aop.config.internalAutoProxyCreator': Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:258)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.learningonline.media.LearningOnlineMediaApiApplication.main(LearningOnlineMediaApiApplication.java:14)
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/annotation/Pointcut
+	at org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory.<clinit>(AbstractAspectJAdvisorFactory.java:62)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.initBeanFactory(AnnotationAwareAspectJAutoProxyCreator.java:82)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.setBeanFactory(AbstractAdvisorAutoProxyCreator.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.annotation.Pointcut
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 21 more
+2025-05-24 17:14:00,657 ERROR [http-nio-63050-exec-1][GlobalExceptionHandle.java:30] - 【系统异常】/ by zero
+java.lang.ArithmeticException: / by zero
+	at com.learningonline.media.service.Impl.MediaFilesServiceImpl.uploadFile(MediaFilesServiceImpl.java:110)
+	at com.learningonline.media.service.Impl.MediaFilesServiceImpl$$FastClassBySpringCGLIB$$a9365047.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.learningonline.media.service.Impl.MediaFilesServiceImpl$$EnhancerBySpringCGLIB$$1271e71c.uploadFile(<generated>)
+	at com.learningonline.media.controller.MediaFilesController.upload(MediaFilesController.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-24 17:25:27,428 ERROR [http-nio-63050-exec-9][GlobalExceptionHandle.java:30] - 【系统异常】Content type '' not supported
+org.springframework.web.HttpMediaTypeNotSupportedException: Content type '' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:270)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1265)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2025-05-24 17:56:04,386 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:0
+2025-05-24 17:56:04,737 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:1
+2025-05-24 17:56:05,000 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:2
+2025-05-24 17:56:05,073 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:3
+2025-05-24 17:56:05,347 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:4
+2025-05-24 17:56:05,408 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:5
+2025-05-24 17:56:05,687 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:6
+2025-05-24 17:56:05,745 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:7
+2025-05-24 17:56:06,025 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:8
+2025-05-24 17:56:06,085 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:9
+2025-05-24 17:56:06,362 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:10
+2025-05-24 17:56:06,423 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:11
+2025-05-24 17:56:06,706 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:12
+2025-05-24 17:56:06,760 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:13
+2025-05-24 17:56:07,042 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:14
+2025-05-24 17:56:07,084 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:15
+2025-05-24 17:56:07,377 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:16
+2025-05-24 17:56:07,408 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:17
+2025-05-24 17:56:07,717 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:18
+2025-05-24 17:56:07,743 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:19
+2025-05-24 17:56:08,070 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:20
+2025-05-24 17:56:08,335 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:21
+2025-05-24 17:56:08,409 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:22
+2025-05-24 17:56:08,672 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:23
+2025-05-24 17:56:08,731 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:24
+2025-05-24 17:56:08,996 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:25
+2025-05-24 17:56:09,056 ERROR [http-nio-63050-exec-5][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:26
+2025-05-24 17:56:09,319 ERROR [http-nio-63050-exec-6][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:27
+2025-05-24 17:56:09,453 ERROR [http-nio-63050-exec-7][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:28
+2025-05-24 17:56:09,656 ERROR [http-nio-63050-exec-8][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:29
+2025-05-24 17:56:09,780 ERROR [http-nio-63050-exec-9][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:30
+2025-05-24 17:56:09,980 ERROR [http-nio-63050-exec-10][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:31
+2025-05-24 17:56:10,119 ERROR [http-nio-63050-exec-1][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:32
+2025-05-24 17:56:10,304 ERROR [http-nio-63050-exec-2][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:33
+2025-05-24 17:56:10,442 ERROR [http-nio-63050-exec-3][MediaFilesServiceImpl.java:274] - 检查分片文件失败:The specified key does not exist.,文件:3c28c0ae00e4fcf02d6d71097852d5d0,分片:34
+2025-05-24 17:56:10,675 ERROR [http-nio-63050-exec-4][MediaFilesServiceImpl.java:344] - 合并失败：Object does not exist，bucket:video，合并文件：3/c/3c28c0ae00e4fcf02d6d71097852d5d0/3c28c0ae00e4fcf02d6d71097852d5d0.mp4

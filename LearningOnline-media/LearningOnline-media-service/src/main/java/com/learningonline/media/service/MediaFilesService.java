@@ -9,6 +9,8 @@ import com.learningonline.media.model.dto.UploadFileResultDto;
 import com.learningonline.media.model.pojo.MediaFiles;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+
 /**
  * 媒资管理服务
  */
@@ -65,6 +67,24 @@ public interface MediaFilesService {
      * @return com.learningonline.base.model.RestResponse<Boolean></Boolean>
      */
      RestResponse<Boolean> uploadChunk(String fileMd5, int chunkIndex,String localChunkPath);
+    /**
+     * 从minio下载文件
+     *
+     * @param bucket
+     * @param filePath objectname即存储路径
+     * @return 下载的文件
+     */
+     File downdloadFileFromMinio(String bucket, String filePath);
+    /**
+     * 向minio上传文件
+     *
+     * @param mimeType      文件内容类型
+     * @param objectName    minio存储的对象名
+     * @param bucket        minio桶
+     * @param localFilePath 文件路径
+     * @return
+     */
+     boolean uploadFileToMinio(String mimeType, String objectName, String bucket, String localFilePath);
 
     /**
      * 合并分片
