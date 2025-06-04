@@ -2,6 +2,7 @@ package com.learningonline.content.api.controller;
 
 import java.util.List;
 
+import com.learningonline.content.model.dto.BindTeachplanMediaDto;
 import com.learningonline.content.model.dto.SaveTeachplanDto;
 import com.learningonline.content.model.dto.TeachplanDto;
 import com.learningonline.content.service.TeachplanService;
@@ -46,5 +47,18 @@ public class TeachplanController {
     @PostMapping("/teachplan/{moveType}/{teachplanId}")
     public void moveTeachplan(@PathVariable String moveType, @PathVariable Long teachplanId) {
         teachplanService.MoveTeachplan(moveType,teachplanId);
+    }
+
+    @ApiOperation(value = "课程计划和媒资信息绑定")
+    @PostMapping("/teachplan/association/media")
+    public void associationMedia(@RequestBody BindTeachplanMediaDto bindTeachplanMediaDto){
+            teachplanService.associationMedia(bindTeachplanMediaDto);
+    }
+    @ApiOperation("解除课程计划和媒资的绑定")
+    @DeleteMapping("/teachplan/association/media/{teachPlanId}/{mediaId}")
+    public void unassociationMedia(
+            @PathVariable Long teachPlanId,
+            @PathVariable String mediaId) {
+        teachplanService.unassociationMedia(teachPlanId, mediaId);
     }
 }

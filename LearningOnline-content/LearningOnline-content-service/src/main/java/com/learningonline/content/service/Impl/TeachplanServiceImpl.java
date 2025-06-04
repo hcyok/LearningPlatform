@@ -6,11 +6,13 @@ import com.learningonline.base.exception.CommonError;
 import com.learningonline.base.exception.LearningPlatformException;
 import com.learningonline.content.mapper.TeachplanMapper;
 import com.learningonline.content.mapper.TeachplanMediaMapper;
+import com.learningonline.content.model.dto.BindTeachplanMediaDto;
 import com.learningonline.content.model.dto.SaveTeachplanDto;
 import com.learningonline.content.model.dto.TeachplanDto;
 import com.learningonline.content.model.pojo.Teachplan;
 import com.learningonline.content.model.pojo.TeachplanMedia;
 import com.learningonline.content.service.TeachplanService;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-
+@Slf4j
 @Service
 public class TeachplanServiceImpl implements TeachplanService {
     @Autowired
@@ -158,6 +160,67 @@ public class TeachplanServiceImpl implements TeachplanService {
                 swapOrderby(teachplanCurrent, teachplanTarget);
             } else LearningPlatformException.cast("移动参数出错");
         } else LearningPlatformException.cast("该目录下可移动的课程计划");
+    }
+
+    /**
+     * 教学计划绑定视频
+     *
+     * @param bindTeachplanMediaDto
+     * @return com.learningonline.content.model.pojo.TeachplanMedia
+     */
+    @Transactional
+    @Override
+    public TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto) {
+        Long teachplanId = bindTeachplanMediaDto.getTeachplanId();
+        Teachplan teachplan = teachplanMapper.selectById(teachplanId);
+        if(teachplan == null) {
+            LearningPlatformException.cast("课程计划不存在");
+        }
+        Integer grade=teachplan.getGrade();
+        if(grade!=2){
+            LearningPlatformException.cast("只有第二级计划才可以添加媒资");
+        }
+
+        LambdaQueryWrapper<TeachplanMedia> teachplanMediaQueryWrapper = new LambdaQueryWrapper<>();
+        teachplanMediaQueryWrapper.eq(TeachplanMedia::getTeachplanId, teachplanId);
+        if(teachplanMediaMapper.selectCount(teachplanMediaQueryWrapper) >0) {
+            teachplanMediaMapper.delete(teachplanMediaQueryWrapper);
+        }
+        Long courseId = teachplan.getCourseId();
+        TeachplanMedia teachplanMedia = new TeachplanMedia();
+        teachplanMedia.setTeachplanId(teachplanId);
+        teachplanMedia.setCourseId(courseId);
+        teachplanMedia.setMediaId(bindTeachplanMediaDto.getMediaId());
+        teachplanMedia.setMediaFilename(bindTeachplanMediaDto.getFileName());
+        teachplanMedia.setCreateDate(LocalDateTime.now());
+        int i=teachplanMediaMapper.insert(teachplanMedia);
+        if(i==0){
+            log.error("保存数据库信息失败：{}",teachplanMedia);
+            LearningPlatformException.cast("绑定失败");
+        }
+        return teachplanMedia;
+    }
+
+    /**
+     * 解绑教学计划和媒资
+     *
+     * @param teachPlanId
+     * @param mediaId
+     */
+    @Override
+    public void unassociationMedia(Long teachPlanId, String mediaId) {
+        Teachplan teachplan = teachplanMapper.selectById(teachPlanId);
+        if(teachplan == null) {
+            LearningPlatformException.cast("课程计划不存在");
+        }
+        LambdaQueryWrapper<TeachplanMedia> teachplanMediaQueryWrapper = new LambdaQueryWrapper<>();
+        teachplanMediaQueryWrapper.eq(TeachplanMedia::getMediaId, mediaId)
+                .eq(TeachplanMedia::getTeachplanId, teachPlanId);
+        int d=teachplanMediaMapper.delete(teachplanMediaQueryWrapper);
+        if(d==0){
+            log.error("解绑失败,计划id:{}",teachPlanId);
+            LearningPlatformException.cast("删除失败");
+        }
     }
 
     /**
