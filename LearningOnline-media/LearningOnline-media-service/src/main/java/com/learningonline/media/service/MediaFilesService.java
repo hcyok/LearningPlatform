@@ -95,4 +95,11 @@ public interface MediaFilesService {
      * @return
      */
      RestResponse<Boolean> mergeChunk(String fileMd5, int chunkTotal,UploadFileParamsDto uploadFileParamsDto,Long companyId);
+
+    /**
+     *
+     * @param mediaId
+     * @return
+     */
+    MediaFiles getFileById(String mediaId);
 }
