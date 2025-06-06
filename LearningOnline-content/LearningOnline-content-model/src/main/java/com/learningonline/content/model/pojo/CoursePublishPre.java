@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -116,12 +117,12 @@ public class CoursePublishPre implements Serializable {
     /**
      * 提交时间
      */
-    private Date createDate;
+    private LocalDateTime createDate;
 
     /**
      * 审核时间
      */
-    private Date auditDate;
+    private LocalDateTime auditDate;
 
     /**
      * 状态
