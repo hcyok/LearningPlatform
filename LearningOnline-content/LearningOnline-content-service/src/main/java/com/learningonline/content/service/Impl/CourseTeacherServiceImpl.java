@@ -1,9 +1,7 @@
 package com.learningonline.content.service.Impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.learningonline.base.exception.LearningPlatformException;
-import com.learningonline.content.LearningOnlineContentServiceApplication;
 import com.learningonline.content.mapper.CourseBaseMapper;
 import com.learningonline.content.mapper.CourseTeacherMapper;
 import com.learningonline.content.model.pojo.CourseBase;
@@ -14,7 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -23,8 +20,7 @@ public class CourseTeacherServiceImpl implements CourseTeacherService {
     private CourseTeacherMapper courseTeacherMapper;
     @Autowired
     private CourseBaseMapper courseBaseMapper;
-    @Autowired
-    private LearningOnlineContentServiceApplication learningOnlineContentServiceApplication;
+
 
     /**
      * 查询课程下所有教师

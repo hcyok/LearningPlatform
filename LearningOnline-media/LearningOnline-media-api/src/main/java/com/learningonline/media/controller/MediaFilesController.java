@@ -30,13 +30,14 @@ public class MediaFilesController {
     @ApiOperation("媒资列表查询接口")
     @PostMapping("/files")
     public PageResult<MediaFiles> list(PageParams pageParams, @RequestBody QueryMediaParamsDto queryMediaParamsDto){
-        Long companyId = 1232141425l;
+        Long companyId = 1232141425L;
         return mediaFilesService.queryMediaFiles(companyId,pageParams,queryMediaParamsDto);
     }
 
     @ApiOperation("上传图片文件")
     @RequestMapping(value = "/upload/coursefile", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata) throws IOException {
+    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
+                                      @RequestParam(value= "objectName",required=false) String objectName) throws IOException {
         Long companyId = 1232141425L;
         UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
         uploadFileParamsDto.setFilename(filedata.getOriginalFilename());
@@ -46,7 +47,7 @@ public class MediaFilesController {
         File tempFile=File.createTempFile("minio","temp");
         filedata.transferTo(tempFile);
         String absolutePath = tempFile.getAbsolutePath();
-        return mediaFilesService.uploadFile(uploadFileParamsDto,companyId,absolutePath);
+        return mediaFilesService.uploadFile(uploadFileParamsDto,companyId,absolutePath,objectName);
     }
 
 }

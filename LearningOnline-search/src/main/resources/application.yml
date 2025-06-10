@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: search
+  cloud:
+    nacos:
+      server-addr: 192.168.130.128:8848
+      discovery:
+        namespace: dev
+        group: LearningPlatform
+      config:
+        namespace: dev
+        group: LearningPlatform
+        file-extension: yaml
+        refresh-enabled: true
+        shared-configs:
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: LearningPlatform-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: LearningPlatform-common
+            refresh: true
+
+  profiles:
+    active: dev
+  config:
+    import:
+      - optional:nacos:${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}?group=LearningPlatform&refresh-enabled=true
+      # 共享配置（原 shared-configs）
+      - optional:nacos:swagger-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+      - optional:nacos:logging-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true

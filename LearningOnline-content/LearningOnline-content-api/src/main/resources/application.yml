@@ -13,6 +13,7 @@ spring:
       - optional:nacos:swagger-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
       - optional:nacos:logging-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
       - optional:nacos:freemarker-config-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
+      - optional:nacos:feign-${spring.profiles.active}.yaml?group=LearningPlatform-common&refresh=true
   cloud:
     nacos:
       server-addr: 192.168.130.128:8848
@@ -38,6 +39,10 @@ spring:
           - data-id: freemarker-config-${spring.profiles.active}.yaml
             group: LearningPlatform-common
             refresh: true
+          - data-id: feign-${spring.profiles.active}.yaml
+            group: LearningPlatform-common
+            refresh: true
+
 
 
 

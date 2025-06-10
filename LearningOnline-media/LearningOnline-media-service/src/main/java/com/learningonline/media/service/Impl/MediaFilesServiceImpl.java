@@ -97,7 +97,7 @@ public class MediaFilesServiceImpl implements MediaFilesService {
      * @return com.learningonline.media.model.dto.UploadFileResultDto
      */
     @Override
-    public UploadFileResultDto uploadFile(UploadFileParamsDto uploadFileParamsDto, Long companyId, String LocalFilePath) {
+    public UploadFileResultDto uploadFile(UploadFileParamsDto uploadFileParamsDto, Long companyId, String LocalFilePath,String objectName) {
         //上传文件到minio
         //需要mimeType,bucket,objectName,filePath
         String fileName = uploadFileParamsDto.getFilename();
@@ -107,7 +107,9 @@ public class MediaFilesServiceImpl implements MediaFilesService {
         File file = new File(LocalFilePath);
         String fileMd5 = getFileMd5(file);
         String folder = getDefaultFolderPath();
-        String objectName = folder + fileMd5 + extension;
+        if(StringUtils.isEmpty(objectName)) {
+             objectName = folder + fileMd5 + extension;
+        }
         boolean isUpload = uploadFileToMinio(mimeType, objectName, bucket_files, LocalFilePath);
         //将文件信息保存到数据库
         MediaFiles mediaFiles = ((MediaFilesService) AopContext.currentProxy()).addMediaFilesToDB(uploadFileParamsDto, companyId, fileMd5, objectName, bucket_files);

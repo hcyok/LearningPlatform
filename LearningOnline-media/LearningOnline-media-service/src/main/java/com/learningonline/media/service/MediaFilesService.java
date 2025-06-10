@@ -22,7 +22,7 @@ public interface MediaFilesService {
      * @param LocalFilePath 上传文件的路径
      * @return com.learningonline.media.model.dto.UploadFileResultDto
      */
-    UploadFileResultDto uploadFile(UploadFileParamsDto uploadFileParamsDto,Long companyId,String LocalFilePath);
+    UploadFileResultDto uploadFile(UploadFileParamsDto uploadFileParamsDto,Long companyId,String LocalFilePath,String objectName);
 
     /**
      *查询媒资列表
