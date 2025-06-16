@@ -12,6 +12,7 @@ import com.learningonline.content.service.CourseBaseInfoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -40,6 +41,7 @@ public class CourseBaseInfoController {
     @ApiOperation("根据id查询课程")
     @GetMapping("/course/{courseId}")
     public CourseBaseInfoDto queryCourseById(@PathVariable("courseId") Long courseId) {
+
         return courseBaseInfoService.getCourseBaseInfo(courseId);
     }
     @ApiOperation("修改课程基础信息")

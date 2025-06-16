@@ -1,0 +1,1050 @@
+2025-06-13 14:51:12,418 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-06-13 14:51:12,418 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-06-13 14:51:12,429 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-13 14:51:12,429 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-13 14:51:12,438 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:51:12,438 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:51:12,440 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:51:12,440 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:51:12,440 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:51:12,440 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:51:12,440 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:51:12,440 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:51:12,445 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:51:12,445 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:51:12,468 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:51:12,468 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:51:12,471 INFO [main][StartupInfoLogger.java:55] - Starting AuthApplication using Java 1.8.0_432 on yhc with PID 12432 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-auth\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-06-13 14:51:12,471 INFO [main][StartupInfoLogger.java:55] - Starting AuthApplication using Java 1.8.0_432 on yhc with PID 12432 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-auth\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-06-13 14:51:12,474 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-06-13 14:51:12,474 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-06-13 14:51:12,475 INFO [main][SpringApplication.java:637] - The following 1 profile is active: "dev"
+2025-06-13 14:51:12,475 INFO [main][SpringApplication.java:637] - The following 1 profile is active: "dev"
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=feign-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=feign-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:51:12,510 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=feign-dev.yaml, group=LearningPlatform-common] content: 
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: BASIC
+        connectTimeout: 5000  # 连接超时(ms)
+        readTimeout: 30000   # 读超时(ms)
+  circuitbreaker:
+    enabled: true  # 使用Spring Cloud CircuitBreaker替代Hystrix
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
+
+# 移除Hystrix配置（2020+版本使用Resilience4J）
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+ribbon:
+  ConnectTimeout: 5000    # 与Feign配置一致
+  ReadTimeout: 30000      # 与Feign配置一致
+  MaxAutoRetries: 1       # 同服务重试次数
+  MaxAutoRetriesNextServer: 1 # 切换服务实例次数
+    
+
+
+2025-06-13 14:51:12,510 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=feign-dev.yaml, group=LearningPlatform-common] content: 
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: BASIC
+        connectTimeout: 5000  # 连接超时(ms)
+        readTimeout: 30000   # 读超时(ms)
+  circuitbreaker:
+    enabled: true  # 使用Spring Cloud CircuitBreaker替代Hystrix
+  httpclient:
+    enabled: true
+    max-connections: 200
+    max-connections-per-route: 50
+
+# 移除Hystrix配置（2020+版本使用Resilience4J）
+spring:
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+ribbon:
+  ConnectTimeout: 5000    # 与Feign配置一致
+  ReadTimeout: 30000      # 与Feign配置一致
+  MaxAutoRetries: 1       # 同服务重试次数
+  MaxAutoRetriesNextServer: 1 # 切换服务实例次数
+    
+
+
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=logging-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=logging-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:51:12,510 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=logging-dev.yaml, group=LearningPlatform-common] content: 
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gateway: trace
+2025-06-13 14:51:12,510 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=logging-dev.yaml, group=LearningPlatform-common] content: 
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gateway: trace
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=swagger-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=swagger-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:51:12,510 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=swagger-dev.yaml, group=LearningPlatform-common] content: 
+# swagger 开启配置
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
+test_config:
+ a: 1a
+ b: 1b
+ c: 1c
+ d: 1d
+2025-06-13 14:51:12,510 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=swagger-dev.yaml, group=LearningPlatform-common] content: 
+# swagger 开启配置
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
+test_config:
+ a: 1a
+ b: 1b
+ c: 1c
+ d: 1d
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=auth-service-dev.yaml, group=LearningPlatform] success
+2025-06-13 14:51:12,510 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=auth-service-dev.yaml, group=LearningPlatform] success
+2025-06-13 14:51:12,512 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=auth-service-dev.yaml, group=LearningPlatform] content: 
+server:
+  servlet:
+    context-path: /auth
+  port: 63070
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.130.1:3306/lo_users_db?serverTimezone=UTC&userUnicode=true&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: 123456
+2025-06-13 14:51:12,512 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=auth-service-dev.yaml, group=LearningPlatform] content: 
+server:
+  servlet:
+    context-path: /auth
+  port: 63070
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.130.1:3306/lo_users_db?serverTimezone=UTC&userUnicode=true&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: 123456
+2025-06-13 14:51:12,667 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:51:12,667 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:51:12,673 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:51:12,673 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:51:12,673 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:51:12,673 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:51:12,673 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:51:12,673 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:51:12,675 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:51:12,675 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:51:12,675 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:51:12,675 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:51:13,605 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-06-13 14:51:13,605 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-06-13 14:51:13,691 INFO [main][GenericScope.java:283] - BeanFactory id=63b257b5-d06e-3e97-a52e-8df0d792b3e1
+2025-06-13 14:51:13,691 INFO [main][GenericScope.java:283] - BeanFactory id=63b257b5-d06e-3e97-a52e-8df0d792b3e1
+2025-06-13 14:51:13,832 INFO [main][PostProcessorRegistrationDelegate.java:376] - Bean 'org.springframework.boot.autoconfigure.security.oauth2.method.OAuth2MethodSecurityExpressionHandlerConfiguration' of type [org.springframework.boot.autoconfigure.security.oauth2.method.OAuth2MethodSecurityExpressionHandlerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-13 14:51:13,832 INFO [main][PostProcessorRegistrationDelegate.java:376] - Bean 'org.springframework.boot.autoconfigure.security.oauth2.method.OAuth2MethodSecurityExpressionHandlerConfiguration' of type [org.springframework.boot.autoconfigure.security.oauth2.method.OAuth2MethodSecurityExpressionHandlerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-13 14:51:13,836 INFO [main][PostProcessorRegistrationDelegate.java:376] - Bean 'methodSecurityExpressionHandler' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-13 14:51:13,836 INFO [main][PostProcessorRegistrationDelegate.java:376] - Bean 'methodSecurityExpressionHandler' of type [org.springframework.security.oauth2.provider.expression.OAuth2MethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-06-13 14:51:14,050 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63070 (http)
+2025-06-13 14:51:14,050 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63070 (http)
+2025-06-13 14:51:14,059 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63070"]
+2025-06-13 14:51:14,059 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63070"]
+2025-06-13 14:51:14,060 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-06-13 14:51:14,060 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-06-13 14:51:14,060 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-06-13 14:51:14,060 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-06-13 14:51:14,205 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-06-13 14:51:14,205 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-06-13 14:51:14,205 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1692 ms
+2025-06-13 14:51:14,205 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1692 ms
+2025-06-13 14:51:14,278 WARN [main][JwtAccessTokenConverter.java:306] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2025-06-13 14:51:14,278 WARN [main][JwtAccessTokenConverter.java:306] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2025-06-13 14:51:14,407 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-06-13 14:51:14,407 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2025-06-13 14:51:14,464 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@53feeac9'
+2025-06-13 14:51:14,464 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@53feeac9'
+2025-06-13 14:51:14,466 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-06-13 14:51:14,466 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2025-06-13 14:51:15,541 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.AuthorizationEndpoint:
+	{ [/oauth/authorize]}: authorize(Map,Map,SessionStatus,Principal)
+	{POST [/oauth/authorize], params [user_oauth_approval]}: approveOrDeny(Map,Map,SessionStatus,Principal)
+2025-06-13 14:51:15,541 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.AuthorizationEndpoint:
+	{ [/oauth/authorize]}: authorize(Map,Map,SessionStatus,Principal)
+	{POST [/oauth/authorize], params [user_oauth_approval]}: approveOrDeny(Map,Map,SessionStatus,Principal)
+2025-06-13 14:51:15,544 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.TokenEndpoint:
+	{GET [/oauth/token]}: getAccessToken(Principal,Map)
+	{POST [/oauth/token]}: postAccessToken(Principal,Map)
+2025-06-13 14:51:15,544 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.TokenEndpoint:
+	{GET [/oauth/token]}: getAccessToken(Principal,Map)
+	{POST [/oauth/token]}: postAccessToken(Principal,Map)
+2025-06-13 14:51:15,544 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.CheckTokenEndpoint:
+	{POST [/oauth/check_token]}: checkToken(String)
+2025-06-13 14:51:15,544 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.CheckTokenEndpoint:
+	{POST [/oauth/check_token]}: checkToken(String)
+2025-06-13 14:51:15,546 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.WhitelabelApprovalEndpoint:
+	{ [/oauth/confirm_access]}: getAccessConfirmation(Map,HttpServletRequest)
+2025-06-13 14:51:15,546 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.WhitelabelApprovalEndpoint:
+	{ [/oauth/confirm_access]}: getAccessConfirmation(Map,HttpServletRequest)
+2025-06-13 14:51:15,546 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.WhitelabelErrorEndpoint:
+	{ [/oauth/error]}: handleError(HttpServletRequest)
+2025-06-13 14:51:15,546 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.WhitelabelErrorEndpoint:
+	{ [/oauth/error]}: handleError(HttpServletRequest)
+2025-06-13 14:51:15,547 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.TokenKeyEndpoint:
+	{GET [/oauth/token_key]}: getKey(Principal)
+2025-06-13 14:51:15,547 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.s.o.p.e.TokenKeyEndpoint:
+	{GET [/oauth/token_key]}: getKey(Principal)
+2025-06-13 14:51:15,569 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.a.c.LoginController:
+	{ [/login-success]}: loginSuccess()
+	{ [/r/r1]}: r1()
+	{ [/user/{id}]}: getuser(String)
+	{ [/r/r2]}: r2()
+2025-06-13 14:51:15,569 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.a.c.LoginController:
+	{ [/login-success]}: loginSuccess()
+	{ [/r/r1]}: r1()
+	{ [/user/{id}]}: getuser(String)
+	{ [/r/r2]}: r2()
+2025-06-13 14:51:15,571 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-06-13 14:51:15,571 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-06-13 14:51:15,572 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-06-13 14:51:15,572 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2025-06-13 14:51:15,574 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-06-13 14:51:15,574 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2025-06-13 14:51:15,575 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.u.f.CheckCodeClient:
+	{POST [/checkcode/verify]}: verify(String,String)
+2025-06-13 14:51:15,575 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.l.u.f.CheckCodeClient:
+	{POST [/checkcode/verify]}: verify(String,String)
+2025-06-13 14:51:15,578 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2025-06-13 14:51:15,578 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+	{ [/error]}: error(HttpServletRequest)
+2025-06-13 14:51:15,946 INFO [main][DefaultSecurityFilterChain.java:55] - Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@279c4e3b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@334b392d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6996bbc4, org.springframework.security.web.header.HeaderWriterFilter@2e159116, org.springframework.security.web.authentication.logout.LogoutFilter@17136390, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@3041beb3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2fa212df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dbf2da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43b6cb1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59f7c106, org.springframework.security.web.session.SessionManagementFilter@2976ca51, org.springframework.security.web.access.ExceptionTranslationFilter@6efd0a6e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6de610c6]
+2025-06-13 14:51:15,946 INFO [main][DefaultSecurityFilterChain.java:55] - Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@279c4e3b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@334b392d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6996bbc4, org.springframework.security.web.header.HeaderWriterFilter@2e159116, org.springframework.security.web.authentication.logout.LogoutFilter@17136390, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@3041beb3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2fa212df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dbf2da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43b6cb1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@59f7c106, org.springframework.security.web.session.SessionManagementFilter@2976ca51, org.springframework.security.web.access.ExceptionTranslationFilter@6efd0a6e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6de610c6]
+2025-06-13 14:51:15,955 INFO [main][DefaultSecurityFilterChain.java:55] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@abc7005, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@595ec862, org.springframework.security.web.context.SecurityContextPersistenceFilter@5af38a4a, org.springframework.security.web.header.HeaderWriterFilter@3c71cf3e, org.springframework.security.web.csrf.CsrfFilter@3b9c9b8b, org.springframework.security.web.authentication.logout.LogoutFilter@315cf170, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69ba72da, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d800a56, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63c84d31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e1a9173, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ca0b9b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@102af1bb, org.springframework.security.web.session.SessionManagementFilter@636e4bf8, org.springframework.security.web.access.ExceptionTranslationFilter@248d3a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e794f53]
+2025-06-13 14:51:15,955 INFO [main][DefaultSecurityFilterChain.java:55] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@abc7005, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@595ec862, org.springframework.security.web.context.SecurityContextPersistenceFilter@5af38a4a, org.springframework.security.web.header.HeaderWriterFilter@3c71cf3e, org.springframework.security.web.csrf.CsrfFilter@3b9c9b8b, org.springframework.security.web.authentication.logout.LogoutFilter@315cf170, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69ba72da, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5d800a56, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63c84d31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e1a9173, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ca0b9b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@102af1bb, org.springframework.security.web.session.SessionManagementFilter@636e4bf8, org.springframework.security.web.access.ExceptionTranslationFilter@248d3a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6e794f53]
+2025-06-13 14:51:15,969 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:51:15,969 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:51:15,972 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-06-13 14:51:15,972 DEBUG [main][AbstractConfigurationImpl.java:174] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2025-06-13 14:51:15,972 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-06-13 14:51:15,972 DEBUG [main][AbstractConfigurationImpl.java:206] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2025-06-13 14:51:15,972 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-06-13 14:51:15,972 DEBUG [main][AbstractConfigurationImpl.java:220] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2025-06-13 14:51:15,974 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:51:15,974 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:51:15,974 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-06-13 14:51:15,974 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2025-06-13 14:51:15,974 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:51:15,974 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:51:15,974 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:51:15,974 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:51:15,974 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:51:15,974 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:51:15,974 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:51:15,974 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:51:15,975 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:51:15,975 DEBUG [main][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:51:15,975 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:51:15,975 DEBUG [main][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:51:15,975 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:51:15,975 DEBUG [main][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:51:15,977 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:51:15,977 DEBUG [main][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:51:15,977 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:51:15,977 DEBUG [main][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:51:15,977 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:51:15,977 DEBUG [main][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:51:16,123 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-06-13 14:51:16,123 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2025-06-13 14:51:16,130 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-06-13 14:51:16,130 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2025-06-13 14:51:16,283 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-06-13 14:51:16,283 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2025-06-13 14:51:17,905 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-06-13 14:51:17,905 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-06-13 14:51:18,104 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63070"]
+2025-06-13 14:51:18,104 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63070"]
+2025-06-13 14:51:18,117 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63070 (http) with context path '/auth'
+2025-06-13 14:51:18,117 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63070 (http) with context path '/auth'
+2025-06-13 14:51:18,132 INFO [main][ClientAuthPluginManager.java:56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-06-13 14:51:18,132 INFO [main][ClientAuthPluginManager.java:56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-06-13 14:51:18,134 INFO [main][ClientAuthPluginManager.java:56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-06-13 14:51:18,134 INFO [main][ClientAuthPluginManager.java:56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND SETTINGS: ack=false settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND SETTINGS: ack=false settings={ENABLE_PUSH=0, MAX_CONCURRENT_STREAMS=0, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND SETTINGS: ack=false settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND SETTINGS: ack=false settings={MAX_CONCURRENT_STREAMS=2147483647, INITIAL_WINDOW_SIZE=1048576, MAX_HEADER_LIST_SIZE=8192}
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:191] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND SETTINGS: ack=true
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:191] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND SETTINGS: ack=true
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND WINDOW_UPDATE: streamId=0 windowSizeIncrement=983041
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:18,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=3 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:18,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=3 padding=0 endStream=true length=80 bytes=000000004b12231a12536572766572436865636b52657175657374420d3139322e3136382e3133302e311a2412227b2268656164657273223a7b7d2c226d6f64...
+2025-06-13 14:51:18,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=3 padding=0 endStream=true length=80 bytes=000000004b12231a12536572766572436865636b52657175657374420d3139322e3136382e3133302e311a2412227b2268656164657273223a7b7d2c226d6f64...
+2025-06-13 14:51:18,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:191] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND SETTINGS: ack=true
+2025-06-13 14:51:18,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:191] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND SETTINGS: ack=true
+2025-06-13 14:51:18,154 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,154 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,154 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,154 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,160 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:18,160 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:18,160 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND DATA: streamId=3 padding=0 endStream=false length=130 bytes=000000007d12151a13536572766572436865636b526573706f6e73651a6412627b22726573756c74436f6465223a3230302c226572726f72436f6465223a302c...
+2025-06-13 14:51:18,160 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND DATA: streamId=3 padding=0 endStream=false length=130 bytes=000000007d12151a13536572766572436865636b526573706f6e73651a6412627b22726573756c74436f6465223a3230302c226572726f72436f6465223a302c...
+2025-06-13 14:51:18,160 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,160 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,163 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:18,163 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=3 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:18,163 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=5 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /BiRequestStream/requestBiStream, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:18,163 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=5 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /BiRequestStream/requestBiStream, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:18,163 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=5 padding=0 endStream=false length=171 bytes=00000000a612271a16436f6e6e656374696f6e536574757052657175657374420d3139322e3136382e3133302e311a7b12797b2268656164657273223a7b7d2c...
+2025-06-13 14:51:18,163 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=5 padding=0 endStream=false length=171 bytes=00000000a612271a16436f6e6e656374696f6e536574757052657175657374420d3139322e3136382e3133302e311a7b12797b2268656164657273223a7b7d2c...
+2025-06-13 14:51:18,165 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,165 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,166 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,166 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,166 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,166 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,283 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=7 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:18,283 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=7 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:18,285 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=7 padding=0 endStream=true length=522 bytes=000000020512301a0f496e7374616e6365526571756573743a0e0a036170701207756e6b6e6f776e420d3139322e3136382e3133302e311ad00312cd037b2268...
+2025-06-13 14:51:18,285 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=7 padding=0 endStream=true length=522 bytes=000000020512301a0f496e7374616e6365526571756573743a0e0a036170701207756e6b6e6f776e420d3139322e3136382e3133302e311ad00312cd037b2268...
+2025-06-13 14:51:18,286 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,286 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,287 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,287 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,312 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=7 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:18,312 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=7 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND DATA: streamId=7 padding=0 endStream=false length=102 bytes=000000006112121a10496e7374616e6365526573706f6e73651a4b12497b22726573756c74436f6465223a3230302c226572726f72436f6465223a302c227479...
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND DATA: streamId=7 padding=0 endStream=false length=102 bytes=000000006112121a10496e7374616e6365526573706f6e73651a4b12497b22726573756c74436f6465223a3230302c226572726f72436f6465223a302c227479...
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=7 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=7 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,314 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:18,314 INFO [main][NacosServiceRegistry.java:76] - nacos registry, LearningPlatform auth-service 192.168.130.1:63070 register finished
+2025-06-13 14:51:18,314 INFO [main][NacosServiceRegistry.java:76] - nacos registry, LearningPlatform auth-service 192.168.130.1:63070 register finished
+2025-06-13 14:51:19,095 INFO [main][StartupInfoLogger.java:61] - Started AuthApplication in 10.231 seconds (JVM running for 11.811)
+2025-06-13 14:51:19,095 INFO [main][StartupInfoLogger.java:61] - Started AuthApplication in 10.231 seconds (JVM running for 11.811)
+2025-06-13 14:51:19,110 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=auth-service-dev.yaml, group=LearningPlatform
+2025-06-13 14:51:19,110 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=auth-service-dev.yaml, group=LearningPlatform
+2025-06-13 14:51:19,111 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=swagger-dev.yaml, group=LearningPlatform-common
+2025-06-13 14:51:19,111 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=swagger-dev.yaml, group=LearningPlatform-common
+2025-06-13 14:51:19,113 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=feign-dev.yaml, group=LearningPlatform-common
+2025-06-13 14:51:19,113 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=feign-dev.yaml, group=LearningPlatform-common
+2025-06-13 14:51:19,115 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=logging-dev.yaml, group=LearningPlatform-common
+2025-06-13 14:51:19,115 INFO [main][NacosContextRefresher.java:129] - [Nacos Config] Listening config: dataId=logging-dev.yaml, group=LearningPlatform-common
+2025-06-13 14:51:19,116 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=15 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:19,116 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=15 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:19,118 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=15 padding=0 endStream=true length=403 bytes=000000018e12c8011a18436f6e66696742617463684c697374656e526571756573743a100a076368617273657412055554462d383a190a0e436c69656e742d41...
+2025-06-13 14:51:19,118 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=15 padding=0 endStream=true length=403 bytes=000000018e12c8011a18436f6e66696742617463684c697374656e526571756573743a100a076368617273657412055554462d383a190a0e436c69656e742d41...
+2025-06-13 14:51:19,119 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,119 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,119 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:19,119 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:19,141 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=15 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:19,141 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=15 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:19,144 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND DATA: streamId=15 padding=0 endStream=false length=111 bytes=000000006a12211a1f436f6e6669674368616e676542617463684c697374656e526573706f6e73651a4512437b22726573756c74436f6465223a3230302c2265...
+2025-06-13 14:51:19,144 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND DATA: streamId=15 padding=0 endStream=false length=111 bytes=000000006a12211a1f436f6e6669674368616e676542617463684c697374656e526573706f6e73651a4512437b22726573756c74436f6465223a3230302c2265...
+2025-06-13 14:51:19,144 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,144 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,145 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=15 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:19,145 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=15 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:19,146 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:19,146 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:19,152 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=17 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:19,152 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=17 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:19,152 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=17 padding=0 endStream=true length=643 bytes=000000027e12c8011a18436f6e66696742617463684c697374656e526571756573743a100a076368617273657412055554462d383a190a0e436c69656e742d41...
+2025-06-13 14:51:19,152 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=17 padding=0 endStream=true length=643 bytes=000000027e12c8011a18436f6e66696742617463684c697374656e526571756573743a100a076368617273657412055554462d383a190a0e436c69656e742d41...
+2025-06-13 14:51:19,157 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,157 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,157 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:19,157 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:19,165 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=17 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:19,165 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=17 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:19,169 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND DATA: streamId=17 padding=0 endStream=false length=111 bytes=000000006a12211a1f436f6e6669674368616e676542617463684c697374656e526573706f6e73651a4512437b22726573756c74436f6465223a3230302c2265...
+2025-06-13 14:51:19,169 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND DATA: streamId=17 padding=0 endStream=false length=111 bytes=000000006a12211a1f436f6e6669674368616e676542617463684c697374656e526573706f6e73651a4512437b22726573756c74436f6465223a3230302c2265...
+2025-06-13 14:51:19,169 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,169 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:19,169 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=17 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:19,169 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=17 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:19,170 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:19,170 DEBUG [grpc-nio-worker-ELG-1-2][AbstractInternalLogger.java:214] - [id: 0x8f8ca574, L:/192.168.130.1:50063 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:21,773 WARN [Thread-9][NotifyCenter.java:136] - [NotifyCenter] Start destroying Publisher
+2025-06-13 14:51:21,773 WARN [Thread-4][HttpClientBeanHolder.java:102] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-06-13 14:51:21,773 WARN [Thread-9][NotifyCenter.java:136] - [NotifyCenter] Start destroying Publisher
+2025-06-13 14:51:21,773 WARN [Thread-4][HttpClientBeanHolder.java:102] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-06-13 14:51:21,773 WARN [Thread-9][NotifyCenter.java:153] - [NotifyCenter] Destruction of the end
+2025-06-13 14:51:21,773 WARN [Thread-9][NotifyCenter.java:153] - [NotifyCenter] Destruction of the end
+2025-06-13 14:51:21,774 WARN [Thread-4][HttpClientBeanHolder.java:111] - [HttpClientBeanHolder] Destruction of the end
+2025-06-13 14:51:21,774 WARN [Thread-4][HttpClientBeanHolder.java:111] - [HttpClientBeanHolder] Destruction of the end
+2025-06-13 14:51:22,138 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:95] - De-registering from Nacos Server now...
+2025-06-13 14:51:22,138 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:95] - De-registering from Nacos Server now...
+2025-06-13 14:51:22,140 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=9 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:22,140 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND HEADERS: streamId=9 headers=GrpcHttp2OutboundHeaders[:authority: 192.168.130.128:9848, :path: /Request/request, :method: POST, :scheme: http, content-type: application/grpc, te: trailers, user-agent: grpc-java-netty/1.30.2, grpc-accept-encoding: gzip] streamDependency=0 weight=16 exclusive=false padding=0 endStream=false
+2025-06-13 14:51:22,140 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=9 padding=0 endStream=true length=465 bytes=00000001cc12301a0f496e7374616e6365526571756573743a0e0a036170701207756e6b6e6f776e420d3139322e3136382e3133302e311a97031294037b2268...
+2025-06-13 14:51:22,140 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=9 padding=0 endStream=true length=465 bytes=00000001cc12301a0f496e7374616e6365526571756573743a0e0a036170701207756e6b6e6f776e420d3139322e3136382e3133302e311a97031294037b2268...
+2025-06-13 14:51:22,141 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:22,141 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:22,141 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:22,141 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:22,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=9 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:22,149 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=9 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-encoding: identity, grpc-accept-encoding: gzip] padding=0 endStream=false
+2025-06-13 14:51:22,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND DATA: streamId=9 padding=0 endStream=false length=104 bytes=000000006312121a10496e7374616e6365526573706f6e73651a4d124b7b22726573756c74436f6465223a3230302c226572726f72436f6465223a302c227479...
+2025-06-13 14:51:22,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND DATA: streamId=9 padding=0 endStream=false length=104 bytes=000000006312121a10496e7374616e6365526573706f6e73651a4d124b7b22726573756c74436f6465223a3230302c226572726f72436f6465223a302c227479...
+2025-06-13 14:51:22,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:22,153 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:22,155 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=9 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:22,155 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=9 headers=GrpcHttp2ResponseHeaders[grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:22,155 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:115] - De-registration finished.
+2025-06-13 14:51:22,155 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:115] - De-registration finished.
+2025-06-13 14:51:22,155 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:22,155 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:22,478 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=5 padding=0 endStream=true length=0 bytes=
+2025-06-13 14:51:22,478 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND DATA: streamId=5 padding=0 endStream=true length=0 bytes=
+2025-06-13 14:51:22,478 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:22,478 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND PING: ack=false bytes=1234
+2025-06-13 14:51:22,478 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:22,478 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND PING: ack=true bytes=1234
+2025-06-13 14:51:22,482 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=0 bytes=
+2025-06-13 14:51:22,482 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] OUTBOUND GO_AWAY: lastStreamId=0 errorCode=0 length=0 bytes=
+2025-06-13 14:51:22,484 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=5 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:51:22,484 DEBUG [grpc-nio-worker-ELG-1-4][AbstractInternalLogger.java:214] - [id: 0x5a5a216e, L:/192.168.130.1:50068 - R:/192.168.130.128:9848] INBOUND HEADERS: streamId=5 headers=GrpcHttp2ResponseHeaders[:status: 200, content-type: application/grpc, grpc-status: 0] padding=0 endStream=true
+2025-06-13 14:54:24,096 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-06-13 14:54:24,096 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-06-13 14:54:24,102 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-13 14:54:24,102 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-13 14:54:24,108 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:54:24,108 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:54:24,111 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:54:24,111 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:54:24,111 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:54:24,111 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:54:24,112 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:54:24,112 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:54:24,115 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:54:24,115 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:54:24,132 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:54:24,132 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:54:24,151 INFO [main][StartupInfoLogger.java:55] - Starting CheckcodeApplication using Java 1.8.0_432 on yhc with PID 21520 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-checkcode\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-06-13 14:54:24,151 INFO [main][StartupInfoLogger.java:55] - Starting CheckcodeApplication using Java 1.8.0_432 on yhc with PID 21520 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-checkcode\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-06-13 14:54:24,152 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-06-13 14:54:24,152 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-06-13 14:54:24,154 INFO [main][SpringApplication.java:637] - The following 1 profile is active: "dev"
+2025-06-13 14:54:24,154 INFO [main][SpringApplication.java:637] - The following 1 profile is active: "dev"
+2025-06-13 14:54:24,185 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=redis-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:54:24,185 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=redis-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=redis-dev.yaml, group=LearningPlatform-common] content: 
+spring: 
+  redis:
+    host: 192.168.130.128
+    port: 6379
+    password: 123456
+    database: 0
+    lettuce:
+      pool:
+        max-active: 20
+        max-idle: 10
+        min-idle: 0
+    timeout: 10000
+
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=redis-dev.yaml, group=LearningPlatform-common] content: 
+spring: 
+  redis:
+    host: 192.168.130.128
+    port: 6379
+    password: 123456
+    database: 0
+    lettuce:
+      pool:
+        max-active: 20
+        max-idle: 10
+        min-idle: 0
+    timeout: 10000
+
+2025-06-13 14:54:24,186 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=logging-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:54:24,186 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=logging-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=logging-dev.yaml, group=LearningPlatform-common] content: 
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gateway: trace
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=logging-dev.yaml, group=LearningPlatform-common] content: 
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gateway: trace
+2025-06-13 14:54:24,186 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=swagger-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:54:24,186 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=swagger-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=swagger-dev.yaml, group=LearningPlatform-common] content: 
+# swagger 开启配置
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
+test_config:
+ a: 1a
+ b: 1b
+ c: 1c
+ d: 1d
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=swagger-dev.yaml, group=LearningPlatform-common] content: 
+# swagger 开启配置
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
+test_config:
+ a: 1a
+ b: 1b
+ c: 1c
+ d: 1d
+2025-06-13 14:54:24,186 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=checkcode-dev.yaml, group=LearningPlatform] success
+2025-06-13 14:54:24,186 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=checkcode-dev.yaml, group=LearningPlatform] success
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=checkcode-dev.yaml, group=LearningPlatform] content: 
+server:
+  servlet:
+    context-path: /checkcode
+  port: 63075
+2025-06-13 14:54:24,186 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=checkcode-dev.yaml, group=LearningPlatform] content: 
+server:
+  servlet:
+    context-path: /checkcode
+  port: 63075
+2025-06-13 14:54:24,297 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:54:24,297 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:54:24,301 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:54:24,951 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-06-13 14:54:24,951 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-06-13 14:54:24,954 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-06-13 14:54:24,954 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-06-13 14:54:24,981 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-06-13 14:54:24,981 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-06-13 14:54:25,125 INFO [main][GenericScope.java:283] - BeanFactory id=5027a92a-d83d-30f2-89cc-74bd2f96b339
+2025-06-13 14:54:25,125 INFO [main][GenericScope.java:283] - BeanFactory id=5027a92a-d83d-30f2-89cc-74bd2f96b339
+2025-06-13 14:54:25,404 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
+2025-06-13 14:54:25,404 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
+2025-06-13 14:54:25,412 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
+2025-06-13 14:54:25,412 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
+2025-06-13 14:54:25,413 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-06-13 14:54:25,413 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-06-13 14:54:25,413 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-06-13 14:54:25,413 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-06-13 14:54:25,537 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-06-13 14:54:25,537 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-06-13 14:54:25,537 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1348 ms
+2025-06-13 14:54:25,537 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1348 ms
+2025-06-13 14:54:25,598 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2025-06-13 14:54:25,598 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2025-06-13 14:54:25,602 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2025-06-13 14:54:25,602 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2025-06-13 14:54:25,605 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2025-06-13 14:54:25,605 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2025-06-13 14:54:25,617 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2025-06-13 14:54:25,617 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2025-06-13 14:54:25,639 DEBUG [main][InternalThreadLocalMap.java:100] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-06-13 14:54:25,639 DEBUG [main][InternalThreadLocalMap.java:100] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-06-13 14:54:25,639 DEBUG [main][InternalThreadLocalMap.java:101] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-06-13 14:54:25,639 DEBUG [main][InternalThreadLocalMap.java:101] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-06-13 14:54:25,647 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2025-06-13 14:54:25,647 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2025-06-13 14:54:25,647 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2025-06-13 14:54:25,647 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2025-06-13 14:54:25,650 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@781aff8b
+2025-06-13 14:54:25,650 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@781aff8b
+2025-06-13 14:54:25,655 DEBUG [main][PlatformDependent0.java:496] - -Dio.netty.noUnsafe: false
+2025-06-13 14:54:25,655 DEBUG [main][PlatformDependent0.java:496] - -Dio.netty.noUnsafe: false
+2025-06-13 14:54:25,655 DEBUG [main][PlatformDependent0.java:1000] - Java version: 8
+2025-06-13 14:54:25,655 DEBUG [main][PlatformDependent0.java:1000] - Java version: 8
+2025-06-13 14:54:25,656 DEBUG [main][PlatformDependent0.java:137] - sun.misc.Unsafe.theUnsafe: available
+2025-06-13 14:54:25,656 DEBUG [main][PlatformDependent0.java:137] - sun.misc.Unsafe.theUnsafe: available
+2025-06-13 14:54:25,658 DEBUG [main][PlatformDependent0.java:161] - sun.misc.Unsafe.copyMemory: available
+2025-06-13 14:54:25,658 DEBUG [main][PlatformDependent0.java:161] - sun.misc.Unsafe.copyMemory: available
+2025-06-13 14:54:25,658 DEBUG [main][PlatformDependent0.java:193] - sun.misc.Unsafe.storeFence: available
+2025-06-13 14:54:25,658 DEBUG [main][PlatformDependent0.java:193] - sun.misc.Unsafe.storeFence: available
+2025-06-13 14:54:25,658 DEBUG [main][PlatformDependent0.java:236] - java.nio.Buffer.address: available
+2025-06-13 14:54:25,658 DEBUG [main][PlatformDependent0.java:236] - java.nio.Buffer.address: available
+2025-06-13 14:54:25,659 DEBUG [main][PlatformDependent0.java:307] - direct buffer constructor: available
+2025-06-13 14:54:25,659 DEBUG [main][PlatformDependent0.java:307] - direct buffer constructor: available
+2025-06-13 14:54:25,659 DEBUG [main][PlatformDependent0.java:385] - java.nio.Bits.unaligned: available, true
+2025-06-13 14:54:25,659 DEBUG [main][PlatformDependent0.java:385] - java.nio.Bits.unaligned: available, true
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent0.java:459] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent0.java:459] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent0.java:482] - java.nio.DirectByteBuffer.<init>(long, int): available
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent0.java:482] - java.nio.DirectByteBuffer.<init>(long, int): available
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent.java:1159] - sun.misc.Unsafe: available
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent.java:1159] - sun.misc.Unsafe: available
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent.java:1289] - -Dio.netty.tmpdir: C:\Users\86157\AppData\Local\Temp (java.io.tmpdir)
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent.java:1289] - -Dio.netty.tmpdir: C:\Users\86157\AppData\Local\Temp (java.io.tmpdir)
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent.java:1368] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-06-13 14:54:25,661 DEBUG [main][PlatformDependent.java:1368] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-06-13 14:54:25,662 DEBUG [main][PlatformDependent.java:1119] - Platform: Windows
+2025-06-13 14:54:25,662 DEBUG [main][PlatformDependent.java:1119] - Platform: Windows
+2025-06-13 14:54:25,664 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: 3267887104 bytes
+2025-06-13 14:54:25,664 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: 3267887104 bytes
+2025-06-13 14:54:25,664 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-06-13 14:54:25,664 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-06-13 14:54:25,664 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2025-06-13 14:54:25,664 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2025-06-13 14:54:25,665 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2025-06-13 14:54:25,665 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2025-06-13 14:54:25,667 DEBUG [main][PlatformDependent.java:1010] - org.jctools-core.MpscChunkedArrayQueue: available
+2025-06-13 14:54:25,667 DEBUG [main][PlatformDependent.java:1010] - org.jctools-core.MpscChunkedArrayQueue: available
+2025-06-13 14:54:25,681 DEBUG [main][Loggers.java:254] - Using Slf4j logging framework
+2025-06-13 14:54:25,681 DEBUG [main][Loggers.java:254] - Using Slf4j logging framework
+2025-06-13 14:54:25,687 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2025-06-13 14:54:25,687 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2025-06-13 14:54:25,709 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2025-06-13 14:54:25,709 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2025-06-13 14:54:25,727 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'checkCodeController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'PicCheckCodeService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RedisCheckCodeStore': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+2025-06-13 14:54:25,727 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'checkCodeController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'PicCheckCodeService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RedisCheckCodeStore': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+2025-06-13 14:54:25,727 DEBUG [main][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:54:25,727 DEBUG [main][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:54:25,730 DEBUG [main][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:54:25,730 DEBUG [main][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:54:25,736 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2025-06-13 14:54:25,736 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2025-06-13 14:54:25,747 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-13 14:54:25,747 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-13 14:54:25,767 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory.getPoolConfig(LettuceConnectionConfiguration.java:188)
+
+The following method did not exist:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+
+The calling method's class, org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory, was loaded from the following location:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration$PoolBuilderFactory.class
+
+The called method's class, org.apache.commons.pool2.impl.GenericObjectPoolConfig, is available from the following locations:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.impl.BaseObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.BaseObject: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory and org.apache.commons.pool2.impl.GenericObjectPoolConfig
+
+2025-06-13 14:54:25,767 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory.getPoolConfig(LettuceConnectionConfiguration.java:188)
+
+The following method did not exist:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+
+The calling method's class, org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory, was loaded from the following location:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration$PoolBuilderFactory.class
+
+The called method's class, org.apache.commons.pool2.impl.GenericObjectPoolConfig, is available from the following locations:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.impl.BaseObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.BaseObject: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory and org.apache.commons.pool2.impl.GenericObjectPoolConfig
+
+2025-06-13 14:54:26,644 WARN [Thread-9][NotifyCenter.java:136] - [NotifyCenter] Start destroying Publisher
+2025-06-13 14:54:26,644 WARN [Thread-4][HttpClientBeanHolder.java:102] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-06-13 14:54:26,644 WARN [Thread-4][HttpClientBeanHolder.java:102] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-06-13 14:54:26,644 WARN [Thread-9][NotifyCenter.java:136] - [NotifyCenter] Start destroying Publisher
+2025-06-13 14:54:26,644 WARN [Thread-9][NotifyCenter.java:153] - [NotifyCenter] Destruction of the end
+2025-06-13 14:54:26,644 WARN [Thread-9][NotifyCenter.java:153] - [NotifyCenter] Destruction of the end
+2025-06-13 14:54:26,645 WARN [Thread-4][HttpClientBeanHolder.java:111] - [HttpClientBeanHolder] Destruction of the end
+2025-06-13 14:54:26,645 WARN [Thread-4][HttpClientBeanHolder.java:111] - [HttpClientBeanHolder] Destruction of the end
+2025-06-13 14:55:19,540 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-06-13 14:55:19,540 DEBUG [background-preinit][LoggerProviders.java:152] - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2025-06-13 14:55:19,547 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-13 14:55:19,547 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.2.5.Final
+2025-06-13 14:55:19,551 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:55:19,551 DEBUG [background-preinit][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2025-06-13 14:55:19,553 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:55:19,553 DEBUG [background-preinit][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2025-06-13 14:55:19,554 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:55:19,554 DEBUG [background-preinit][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2025-06-13 14:55:19,554 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:55:19,554 DEBUG [background-preinit][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2025-06-13 14:55:19,558 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:55:19,558 DEBUG [background-preinit][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2025-06-13 14:55:19,575 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:55:19,575 DEBUG [background-preinit][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2025-06-13 14:55:19,595 INFO [main][StartupInfoLogger.java:55] - Starting CheckcodeApplication using Java 1.8.0_432 on yhc with PID 12420 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-checkcode\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-06-13 14:55:19,595 INFO [main][StartupInfoLogger.java:55] - Starting CheckcodeApplication using Java 1.8.0_432 on yhc with PID 12420 (C:\Users\86157\Desktop\在线学习平台\LearningPlatform\LearningOnline-checkcode\target\classes started by 86157 in C:\Users\86157\Desktop\在线学习平台\LearningPlatform)
+2025-06-13 14:55:19,599 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-06-13 14:55:19,599 DEBUG [main][StartupInfoLogger.java:56] - Running with Spring Boot v2.7.6, Spring v5.3.24
+2025-06-13 14:55:19,599 INFO [main][SpringApplication.java:637] - The following 1 profile is active: "dev"
+2025-06-13 14:55:19,599 INFO [main][SpringApplication.java:637] - The following 1 profile is active: "dev"
+2025-06-13 14:55:19,631 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=redis-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:55:19,631 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=redis-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:55:19,631 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=redis-dev.yaml, group=LearningPlatform-common] content: 
+spring: 
+  redis:
+    host: 192.168.130.128
+    port: 6379
+    password: 123456
+    database: 0
+    lettuce:
+      pool:
+        max-active: 20
+        max-idle: 10
+        min-idle: 0
+    timeout: 10000
+
+2025-06-13 14:55:19,631 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=redis-dev.yaml, group=LearningPlatform-common] content: 
+spring: 
+  redis:
+    host: 192.168.130.128
+    port: 6379
+    password: 123456
+    database: 0
+    lettuce:
+      pool:
+        max-active: 20
+        max-idle: 10
+        min-idle: 0
+    timeout: 10000
+
+2025-06-13 14:55:19,631 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=logging-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:55:19,631 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=logging-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:55:19,631 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=logging-dev.yaml, group=LearningPlatform-common] content: 
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gateway: trace
+2025-06-13 14:55:19,631 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=logging-dev.yaml, group=LearningPlatform-common] content: 
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+  level:
+    org.springframework.cloud.gateway: trace
+2025-06-13 14:55:19,631 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=swagger-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:55:19,631 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=swagger-dev.yaml, group=LearningPlatform-common] success
+2025-06-13 14:55:19,633 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=swagger-dev.yaml, group=LearningPlatform-common] content: 
+# swagger 开启配置
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
+test_config:
+ a: 1a
+ b: 1b
+ c: 1c
+ d: 1d
+2025-06-13 14:55:19,633 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=swagger-dev.yaml, group=LearningPlatform-common] content: 
+# swagger 开启配置
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+      
+test_config:
+ a: 1a
+ b: 1b
+ c: 1c
+ d: 1d
+2025-06-13 14:55:19,633 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=checkcode-dev.yaml, group=LearningPlatform] success
+2025-06-13 14:55:19,633 INFO [main][DeferredLog.java:255] - [Nacos Config] Load config[dataId=checkcode-dev.yaml, group=LearningPlatform] success
+2025-06-13 14:55:19,633 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=checkcode-dev.yaml, group=LearningPlatform] content: 
+server:
+  servlet:
+    context-path: /checkcode
+  port: 63075
+2025-06-13 14:55:19,633 DEBUG [main][DeferredLog.java:252] - [Nacos Config] config[dataId=checkcode-dev.yaml, group=LearningPlatform] content: 
+server:
+  servlet:
+    context-path: /checkcode
+  port: 63075
+2025-06-13 14:55:19,735 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:55:19,735 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:345] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:420] - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:421] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:422] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:423] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:55:19,741 DEBUG [background-preinit][ValidatorFactoryConfigurationHelper.java:424] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2025-06-13 14:55:20,367 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-06-13 14:55:20,367 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-06-13 14:55:20,368 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-06-13 14:55:20,368 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-06-13 14:55:20,390 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-06-13 14:55:20,390 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-06-13 14:55:20,529 INFO [main][GenericScope.java:283] - BeanFactory id=5027a92a-d83d-30f2-89cc-74bd2f96b339
+2025-06-13 14:55:20,529 INFO [main][GenericScope.java:283] - BeanFactory id=5027a92a-d83d-30f2-89cc-74bd2f96b339
+2025-06-13 14:55:20,798 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
+2025-06-13 14:55:20,798 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63075 (http)
+2025-06-13 14:55:20,806 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
+2025-06-13 14:55:20,806 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63075"]
+2025-06-13 14:55:20,806 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-06-13 14:55:20,806 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2025-06-13 14:55:20,807 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-06-13 14:55:20,807 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2025-06-13 14:55:20,934 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-06-13 14:55:20,934 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2025-06-13 14:55:20,935 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1301 ms
+2025-06-13 14:55:20,935 INFO [main][ServletWebServerApplicationContext.java:292] - Root WebApplicationContext: initialization completed in 1301 ms
+2025-06-13 14:55:20,996 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2025-06-13 14:55:20,996 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2025-06-13 14:55:20,999 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2025-06-13 14:55:20,999 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2025-06-13 14:55:21,003 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2025-06-13 14:55:21,003 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2025-06-13 14:55:21,013 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2025-06-13 14:55:21,013 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2025-06-13 14:55:21,032 DEBUG [main][InternalThreadLocalMap.java:100] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-06-13 14:55:21,032 DEBUG [main][InternalThreadLocalMap.java:100] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2025-06-13 14:55:21,032 DEBUG [main][InternalThreadLocalMap.java:101] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-06-13 14:55:21,032 DEBUG [main][InternalThreadLocalMap.java:101] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2025-06-13 14:55:21,038 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2025-06-13 14:55:21,038 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2025-06-13 14:55:21,038 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2025-06-13 14:55:21,038 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2025-06-13 14:55:21,039 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@632b305d
+2025-06-13 14:55:21,039 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@632b305d
+2025-06-13 14:55:21,044 DEBUG [main][PlatformDependent0.java:496] - -Dio.netty.noUnsafe: false
+2025-06-13 14:55:21,044 DEBUG [main][PlatformDependent0.java:496] - -Dio.netty.noUnsafe: false
+2025-06-13 14:55:21,046 DEBUG [main][PlatformDependent0.java:1000] - Java version: 8
+2025-06-13 14:55:21,046 DEBUG [main][PlatformDependent0.java:1000] - Java version: 8
+2025-06-13 14:55:21,047 DEBUG [main][PlatformDependent0.java:137] - sun.misc.Unsafe.theUnsafe: available
+2025-06-13 14:55:21,047 DEBUG [main][PlatformDependent0.java:137] - sun.misc.Unsafe.theUnsafe: available
+2025-06-13 14:55:21,047 DEBUG [main][PlatformDependent0.java:161] - sun.misc.Unsafe.copyMemory: available
+2025-06-13 14:55:21,047 DEBUG [main][PlatformDependent0.java:161] - sun.misc.Unsafe.copyMemory: available
+2025-06-13 14:55:21,049 DEBUG [main][PlatformDependent0.java:193] - sun.misc.Unsafe.storeFence: available
+2025-06-13 14:55:21,049 DEBUG [main][PlatformDependent0.java:193] - sun.misc.Unsafe.storeFence: available
+2025-06-13 14:55:21,049 DEBUG [main][PlatformDependent0.java:236] - java.nio.Buffer.address: available
+2025-06-13 14:55:21,049 DEBUG [main][PlatformDependent0.java:236] - java.nio.Buffer.address: available
+2025-06-13 14:55:21,050 DEBUG [main][PlatformDependent0.java:307] - direct buffer constructor: available
+2025-06-13 14:55:21,050 DEBUG [main][PlatformDependent0.java:307] - direct buffer constructor: available
+2025-06-13 14:55:21,050 DEBUG [main][PlatformDependent0.java:385] - java.nio.Bits.unaligned: available, true
+2025-06-13 14:55:21,050 DEBUG [main][PlatformDependent0.java:385] - java.nio.Bits.unaligned: available, true
+2025-06-13 14:55:21,050 DEBUG [main][PlatformDependent0.java:459] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2025-06-13 14:55:21,050 DEBUG [main][PlatformDependent0.java:459] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent0.java:482] - java.nio.DirectByteBuffer.<init>(long, int): available
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent0.java:482] - java.nio.DirectByteBuffer.<init>(long, int): available
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent.java:1159] - sun.misc.Unsafe: available
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent.java:1159] - sun.misc.Unsafe: available
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent.java:1289] - -Dio.netty.tmpdir: C:\Users\86157\AppData\Local\Temp (java.io.tmpdir)
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent.java:1289] - -Dio.netty.tmpdir: C:\Users\86157\AppData\Local\Temp (java.io.tmpdir)
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent.java:1368] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-06-13 14:55:21,052 DEBUG [main][PlatformDependent.java:1368] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2025-06-13 14:55:21,053 DEBUG [main][PlatformDependent.java:1119] - Platform: Windows
+2025-06-13 14:55:21,053 DEBUG [main][PlatformDependent.java:1119] - Platform: Windows
+2025-06-13 14:55:21,055 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: 3267887104 bytes
+2025-06-13 14:55:21,055 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: 3267887104 bytes
+2025-06-13 14:55:21,055 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-06-13 14:55:21,055 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2025-06-13 14:55:21,056 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2025-06-13 14:55:21,056 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2025-06-13 14:55:21,056 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2025-06-13 14:55:21,056 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2025-06-13 14:55:21,058 DEBUG [main][PlatformDependent.java:1010] - org.jctools-core.MpscChunkedArrayQueue: available
+2025-06-13 14:55:21,058 DEBUG [main][PlatformDependent.java:1010] - org.jctools-core.MpscChunkedArrayQueue: available
+2025-06-13 14:55:21,072 DEBUG [main][Loggers.java:254] - Using Slf4j logging framework
+2025-06-13 14:55:21,072 DEBUG [main][Loggers.java:254] - Using Slf4j logging framework
+2025-06-13 14:55:21,076 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2025-06-13 14:55:21,076 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2025-06-13 14:55:21,095 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2025-06-13 14:55:21,095 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2025-06-13 14:55:21,109 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'checkCodeController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'PicCheckCodeService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RedisCheckCodeStore': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+2025-06-13 14:55:21,109 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'checkCodeController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'PicCheckCodeService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RedisCheckCodeStore': Unsatisfied dependency expressed through field 'redisTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisTemplate' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConnectionFactory' defined in class path resource [org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory]: Factory method 'redisConnectionFactory' threw exception; nested exception is java.lang.NoSuchMethodError: org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+2025-06-13 14:55:21,109 DEBUG [main][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:55:21,109 DEBUG [main][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:55:21,112 DEBUG [main][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:55:21,112 DEBUG [main][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2025-06-13 14:55:21,118 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2025-06-13 14:55:21,118 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2025-06-13 14:55:21,129 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-13 14:55:21,129 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-06-13 14:55:21,148 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory.getPoolConfig(LettuceConnectionConfiguration.java:188)
+
+The following method did not exist:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+
+The calling method's class, org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory, was loaded from the following location:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration$PoolBuilderFactory.class
+
+The called method's class, org.apache.commons.pool2.impl.GenericObjectPoolConfig, is available from the following locations:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.impl.BaseObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.BaseObject: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory and org.apache.commons.pool2.impl.GenericObjectPoolConfig
+
+2025-06-13 14:55:21,148 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory.getPoolConfig(LettuceConnectionConfiguration.java:188)
+
+The following method did not exist:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig.setMaxWait(Ljava/time/Duration;)V
+
+The calling method's class, org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory, was loaded from the following location:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar!/org/springframework/boot/autoconfigure/data/redis/LettuceConnectionConfiguration$PoolBuilderFactory.class
+
+The called method's class, org.apache.commons.pool2.impl.GenericObjectPoolConfig, is available from the following locations:
+
+    jar:file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar!/org/apache/commons/pool2/impl/GenericObjectPoolConfig.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    org.apache.commons.pool2.impl.GenericObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.impl.BaseObjectPoolConfig: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+    org.apache.commons.pool2.BaseObject: file:/C:/Users/86157/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$PoolBuilderFactory and org.apache.commons.pool2.impl.GenericObjectPoolConfig
+
+2025-06-13 14:55:22,035 WARN [Thread-9][NotifyCenter.java:136] - [NotifyCenter] Start destroying Publisher
+2025-06-13 14:55:22,035 WARN [Thread-4][HttpClientBeanHolder.java:102] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-06-13 14:55:22,035 WARN [Thread-9][NotifyCenter.java:136] - [NotifyCenter] Start destroying Publisher
+2025-06-13 14:55:22,035 WARN [Thread-4][HttpClientBeanHolder.java:102] - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-06-13 14:55:22,035 WARN [Thread-9][NotifyCenter.java:153] - [NotifyCenter] Destruction of the end
+2025-06-13 14:55:22,035 WARN [Thread-9][NotifyCenter.java:153] - [NotifyCenter] Destruction of the end
+2025-06-13 14:55:22,037 WARN [Thread-4][HttpClientBeanHolder.java:111] - [HttpClientBeanHolder] Destruction of the end
+2025-06-13 14:55:22,037 WARN [Thread-4][HttpClientBeanHolder.java:111] - [HttpClientBeanHolder] Destruction of the end
